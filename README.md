@@ -1,15 +1,15 @@
 # How to install the Ubuntu subsystem for Windows	10
 Step 1:	Open the Windows 10 Start Menu and search "Turn Windows features on or off"
 
-	Select "Windows Subsystem for Linux"
+Select "Windows Subsystem for Linux"
+ 
+Click "OK"
   
-	Click "OK"
-  
-	Restart your computer
+Restart your computer
 
 Step 2:	Install XMing: https://sourceforge.net/projects/xming/
 
-	Run XMing (it should be running in the background before you open a terminal)
+Run XMing (it should be running in the background before you open a terminal)
 
 Step 3:	Install Ubuntu version through the Microsoft Store: https://wiki.ubuntu.com/WSL#Installing_Ubuntu_on_WSL_via_the_Microsoft_Store_.28Recommended.29
 
