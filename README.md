@@ -37,6 +37,6 @@ Step 5:	Paste "source .bashrc" in the terminal
 # How to install GRSISort on Ubuntu	
 Step 1:	Follow Steps 1 to 5 carefully: https://github.com/GRIFFINCollaboration/GRSISort/wiki/Setting-up-GRSISort
 
-Maybe need "sudo apt-get install libblas3"	
+"sudo apt-get install libblas3"	might be needed
 
 *More support*: https://github.com/GRIFFINCollaboration/GRSISort/wiki/troubleshooting
