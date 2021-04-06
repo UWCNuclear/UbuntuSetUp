@@ -17,7 +17,7 @@ Step 4:	Set up username and password in the Ubuntu terminal
 
 Step 5:	Paste "sudo apt upgrade" in the terminal
 
-More support:	https://wiki.ubuntu.com/WSL
+*More support*:	https://wiki.ubuntu.com/WSL
 
 
 # How to install ROOT on Ubuntu	
@@ -31,10 +31,12 @@ Step 4:	Add the line "source root/bin/thisroot.sh" to your /home/.bashrc file
 
 Step 5:	Paste "source .bashrc" in the terminal
 
-More support:	https://root.cern/install/
+*More support*:	https://root.cern/install/
 
 
 # How to install GRSISort on Ubuntu	
 Step 1:	Follow Steps 1 to 5 carefully: https://github.com/GRIFFINCollaboration/GRSISort/wiki/Setting-up-GRSISort
 
 Maybe need "sudo apt-get install libblas3"	
+
+*More support*: https://github.com/GRIFFINCollaboration/GRSISort/wiki/troubleshooting
