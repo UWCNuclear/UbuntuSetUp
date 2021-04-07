@@ -37,7 +37,7 @@ Step 5:	Type "source .bashrc" in the terminal
 
 *Easy test*: Type "root" in the terminal and press "Enter", then "2+2" and press "Enter", then ".q" to quit.
 
-*Medium test*: (Some steps required :-)) Run the germanium detection efficiency code to obtain the efficiency curve: https://github.com/UWCNuclear/RootEffi (Instructions on the Github page) (To download, type "git clone https://github.com/UWCNuclear/RootEffi.git" in your terminal)
+*Medium test*: Run the germanium detection efficiency code to obtain the efficiency curve: https://github.com/UWCNuclear/RootEffi (Instructions on the Github page) (To download, type "git clone https://github.com/UWCNuclear/RootEffi.git" in your terminal)
 
 *Advanced test*: (Some editing required :-)) Reproduce the plots from the Covid19 minischool: https://github.com/UWCNuclear/Covid19_minischool (Watch the videos to find the commands) (To download, type "git clone https://github.com/UWCNuclear/Covid19_minischool.git" in your terminal)
 
