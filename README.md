@@ -57,6 +57,6 @@ Step 1:	Follow Steps 1 to 5 carefully: https://github.com/GRIFFINCollaboration/G
 
 "sudo apt-get install libblas3"	might be needed
 
-*Easy test*: All the tests for ROOT should still work: simply replace "root" by "grsisort"
+*Test*: All the tests for ROOT should still work: simply replace "root" by "grsisort"
 
 *More support*: https://github.com/GRIFFINCollaboration/GRSISort/wiki/troubleshooting
