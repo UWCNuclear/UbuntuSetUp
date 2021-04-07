@@ -30,10 +30,12 @@ Step 5.	Type in the terminal:
 
     sudo apt update
     sudo apt upgrade
+    sudo apt-cache search grace (check if a particular program is in the Ubuntu repository)
+    sudo apt install grace
 
 Step 6.	Install the text editor "emacs" by typing in the terminal:
 
-    sudo apt-get install emacs
+    sudo apt install emacs
 
 *Test*: Type "emacs" in the terminal
 
