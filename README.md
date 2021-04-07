@@ -25,7 +25,7 @@ Step 6.	Install a text editor (gedit or emacs) by typing in the terminal:
 
 *Test*: Type "gedit" in the terminal
 
-*More support*:	https://wiki.ubuntu.com/WSL
+*More support*:	https://wiki.ubuntu.com/WSL and Google
 
 
 # How to install ROOT6 on Ubuntu	
@@ -65,7 +65,7 @@ Instructions are on the Github page. (To download, type "git clone https://githu
 
 Watch the videos to find the commands. (To download, type "git clone https://github.com/UWCNuclear/Covid19_minischool.git" in your terminal)
 
-*More support*:	https://root.cern/install/
+*More support*:	https://root.cern/install/  and Google
 
 
 # How to install Anaconda, Spyder and Jupyter Notebook on Windows
@@ -73,9 +73,9 @@ Step 1.	Follow instructions carefully: https://docs.anaconda.com/anaconda/instal
 
 *Test*: Run the Monte Carlo code "pi.py" included in this repository. To download, click "Code" at the top right, click "Download ZIP". To run, open "pi.py" in Spyder, click the arrow (run) icon, click on "Plots" in the top right window.
 
-*More support*:	https://docs.anaconda.com/anaconda/user-guide/troubleshooting/
+*More support*:	https://docs.anaconda.com/anaconda/user-guide/troubleshooting/  and Google
 
-*Python workshop*:	https://github.com/UWCNuclear/PythonWorkshop  :-)
+*Python workshop*:	https://github.com/UWCNuclear/PythonWorkshop :-)
 
 
 # [If interested :-)] How to install GRSISort on Ubuntu	[A very useful ROOT-based nuclear physics toolkit]
@@ -85,4 +85,4 @@ Step 1.	Follow Steps 1 to 5 carefully: https://github.com/GRIFFINCollaboration/G
 
 *Test*: All the tests for ROOT should still work: simply replace "root" by "grsisort"
 
-*More support*: https://github.com/GRIFFINCollaboration/GRSISort/wiki/troubleshooting
+*More support*: https://github.com/GRIFFINCollaboration/GRSISort/wiki/troubleshooting  and Google
