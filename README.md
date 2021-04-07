@@ -7,9 +7,9 @@ Click "OK"
   
 Restart your computer
 
-Step 2:	Install XMing: https://sourceforge.net/projects/xming/
+Step 2:	Install Xming: https://sourceforge.net/projects/xming/
 
-Run XMing (It has to be running in the background before you open a terminal and has to be run every time your computer is rebooted.)
+Run Xming (It has to be running in the background before you open a terminal and has to be run every time your computer is rebooted.)
 
 Step 3:	Install Ubuntu version through the Microsoft Store: https://wiki.ubuntu.com/WSL#Installing_Ubuntu_on_WSL_via_the_Microsoft_Store_.28Recommended.29
 
