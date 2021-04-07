@@ -44,11 +44,11 @@ Step 1.	Install all required and optional packages (https://root.cern/install/de
 
 Step 2.	Download the ROOT6 release for the desired platform (https://root.cern/install/all_releases/):
 
-    wget https://root.cern/download/root....tar.gz
+    wget https://root.cern/download/root_v6.22.08.Linux-ubuntu20-x86_64-gcc9.3.tar.gz
 
 Step 3.	Unpack the archive:
 
-    tar -xzvf root....tar.gz"
+    tar -xzvf root_v6.22.08.Linux-ubuntu20-x86_64-gcc9.3.tar.gz
     
 Step 4.	Using emacs, add the line "source root/bin/thisroot.sh" to your /home/.bashrc file
 
