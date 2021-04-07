@@ -15,9 +15,13 @@ Step 3:	Install Ubuntu version (18 or 20) through the Microsoft Store: https://w
 
 Step 4:	Set up username and password in the Ubuntu terminal
 
-Step 5:	Type "sudo apt upgrade" in the terminal
+Step 5:	Type in the terminal:
 
-Step 6:	Install a text editor (gedit or emacs) by typing "sudo apt-get install gedit" in the terminal
+    sudo apt upgrade
+
+Step 6:	Install a text editor (gedit or emacs) by typing in the terminal:
+
+    sudo apt-get install gedit
 
 *Test*: Type "gedit" in the terminal
 
@@ -25,7 +29,7 @@ Step 6:	Install a text editor (gedit or emacs) by typing "sudo apt-get install g
 
 
 # How to install ROOT6 on Ubuntu	
-Step 1:	Install all required and optional packages (https://root.cern/install/dependencies/) by typing the following commands in the terminal:
+Step 1:	Install all required and optional packages (https://root.cern/install/dependencies/) by typing the two following commands in the terminal:
 
     sudo apt-get install dpkg-dev cmake g++ gcc binutils libx11-dev libxpm-dev \
     libxft-dev libxext-dev python libssl-dev
@@ -37,13 +41,19 @@ Step 1:	Install all required and optional packages (https://root.cern/install/de
     libldap2-dev python-dev libxml2-dev libkrb5-dev \
     libgsl0-dev libqt4-dev
 
-Step 2:	Download the ROOT6 release for the desired platform (https://root.cern/install/all_releases/) using "wget https://root.cern/download/root....tar.gz"
+Step 2:	Download the ROOT6 release for the desired platform (https://root.cern/install/all_releases/):
 
-Step 3:	Unpack the archive: "tar -xzvf root....tar.gz"
+    wget https://root.cern/download/root....tar.gz
 
-Step 4:	Add the line "source root/bin/thisroot.sh" to your /home/.bashrc file
+Step 3:	Unpack the archive:
 
-Step 5:	Type "source .bashrc" in the terminal
+    tar -xzvf root....tar.gz"
+    
+Step 4:	Using a text editor, add the line "source root/bin/thisroot.sh" to your /home/.bashrc file
+
+Step 5:	Type in the terminal:
+
+    source .bashrc
 
 *Easy test*: Type "root" in the terminal and press "Enter", then "2+2" and press "Enter", then ".q" to quit.
 
