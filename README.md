@@ -17,6 +17,7 @@ Step 4.	Set up username and password in the Ubuntu terminal
 
 Step 5.	Type in the terminal:
 
+    sudo apt update
     sudo apt upgrade
 
 Step 6.	Install the text editor "emacs" by typing in the terminal:
