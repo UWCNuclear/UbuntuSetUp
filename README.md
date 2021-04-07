@@ -27,9 +27,15 @@ Step 6:	Install a text editor (gedit or emacs) by typing "sudo apt-get install g
 # How to install ROOT6 on Ubuntu	
 Step 1:	Install all required and optional packages (https://root.cern/install/dependencies/) by typing the following commands in the terminal:
 
-    sudo apt-get install dpkg-dev cmake g++ gcc binutils libx11-dev libxpm-dev libxft-dev libxext-dev python libssl-dev
+    sudo apt-get install dpkg-dev cmake g++ gcc binutils libx11-dev libxpm-dev \
+    libxft-dev libxext-dev python libssl-dev
     
-    sudo apt-get install gfortran libpcre3-dev xlibmesa-glu-dev libglew1.5-dev libftgl-dev libmysqlclient-dev libfftw3-dev libcfitsio-dev graphviz-dev libavahi-compat-libdnssd-dev libldap2-dev python-dev libxml2-dev libkrb5-dev libgsl0-dev libqt4-dev
+    sudo apt-get install gfortran libpcre3-dev \
+    xlibmesa-glu-dev libglew1.5-dev libftgl-dev \
+    libmysqlclient-dev libfftw3-dev libcfitsio-dev \
+    graphviz-dev libavahi-compat-libdnssd-dev \
+    libldap2-dev python-dev libxml2-dev libkrb5-dev \
+    libgsl0-dev libqt4-dev
 
 Step 2:	Download the ROOT6 release for the desired platform (https://root.cern/install/all_releases/) using "wget https://root.cern/download/root....tar.gz"
 
