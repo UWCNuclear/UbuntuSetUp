@@ -17,7 +17,7 @@ Step 4:	Set up username and password in the Ubuntu terminal
 
 Step 5:	Type "sudo apt upgrade" in the terminal
 
-Step 6:	Install the text editor "gedit" by typing "sudo apt-get gedit" in the terminal
+Step 6:	Install the text editor "gedit" by typing "sudo apt-get install gedit" in the terminal
 
 *Test*: Type "gedit" in the terminal
 
