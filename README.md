@@ -19,11 +19,11 @@ Step 5.	Type in the terminal:
 
     sudo apt upgrade
 
-Step 6.	Install a text editor (gedit or emacs) by typing in the terminal:
+Step 6.	Install the text editor "emacs" by typing in the terminal:
 
-    sudo apt-get install gedit
+    sudo apt-get install emacs-gtk
 
-*Test*: Type "gedit" in the terminal
+*Test*: Type "emacs" in the terminal
 
 *More support*:	https://wiki.ubuntu.com/WSL and Google
 
