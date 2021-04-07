@@ -11,7 +11,7 @@ Step 2.	Install Xming: https://sourceforge.net/projects/xming/
 
 Run Xming (It has to be running in the background before you open a terminal and has to be run every time your computer is rebooted.)
 
-Step 3.	Install Ubuntu version (18 or 20) through the Microsoft Store: https://wiki.ubuntu.com/WSL#Installing_Ubuntu_on_WSL_via_the_Microsoft_Store_.28Recommended.29
+Step 3.	Install Ubuntu 20 through the Microsoft Store: https://www.microsoft.com/en-za/p/ubuntu-2004-lts/9n6svws3rx71?rtc=1
 
 Step 4.	Set up username and password in the Ubuntu terminal
 
@@ -22,7 +22,7 @@ Step 5.	Type in the terminal:
 
 Step 6.	Install the text editor "emacs" by typing in the terminal:
 
-    sudo apt-get install emacs-gtk
+    sudo apt-get install emacs
 
 *Test*: Type "emacs" in the terminal
 
@@ -69,7 +69,7 @@ Watch the videos to find the commands. (To download, type "git clone https://git
 *More support*:	https://root.cern/install/  and Google
 
 
-# How to install Anaconda, Spyder and Jupyter Notebook on Windows
+# How to install Anaconda, Spyder and Jupyter Notebook on Windows or Ubuntu
 Step 1.	Follow instructions carefully: https://docs.anaconda.com/anaconda/install/windows/
 
 *Test*: Run the Monte Carlo code "pi.py" included in this repository. To download, click "Code" at the top right, click "Download ZIP". To run, open "pi.py" in Spyder, click the arrow (run) icon, click on "Plots" in the top right window.
