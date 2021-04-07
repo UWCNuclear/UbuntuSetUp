@@ -14,7 +14,7 @@ from time import gmtime, strftime
 
 # =============================================================================
 
-N=1000000
+N=100
 x = np.random.rand(N)
 y = np.random.rand(N)
 hit = (x*x + y*y < 1.0) 
