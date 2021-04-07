@@ -1,4 +1,15 @@
 # How to install the Ubuntu subsystem for Windows	10
+
+*Still on Windows 8?
+
+*Update to Windows 10 for free: https://geeksadvice.com/upgrade-to-windows-10-for-free/
+
+*Install Ubuntu from scratch or in dual-boot
+
+*UWC computer lab (soon)
+
+
+
 Step 1.	Open the Windows 10 Start Menu and search "Turn Windows features on or off"
 
 Select "Windows Subsystem for Linux"
