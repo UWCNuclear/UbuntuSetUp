@@ -50,11 +50,11 @@ Step 3.	Unpack the archive:
 
     tar -xzvf root_v6.22.08.Linux-ubuntu20-x86_64-gcc9.3.tar.gz
     
-Step 4.	Using emacs, add the line "source root/bin/thisroot.sh" to your /home/.bashrc file
+Step 4.	Using emacs, add the line "source root/bin/thisroot.sh" to your .bashrc file in your home directory (~/.bashrc)
 
 Step 5.	Type in the terminal:
 
-    source .bashrc
+    source ~/.bashrc
 
 *Easy test*: Type "root" in the terminal and press "Enter", then "2+2" and press "Enter", then ".q" to quit.
 
