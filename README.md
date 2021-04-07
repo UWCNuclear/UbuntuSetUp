@@ -49,7 +49,7 @@ Step 3.	Unpack the archive:
 
     tar -xzvf root....tar.gz"
     
-Step 4.	Using a text editor, add the line "source root/bin/thisroot.sh" to your /home/.bashrc file
+Step 4.	Using emacs, add the line "source root/bin/thisroot.sh" to your /home/.bashrc file
 
 Step 5.	Type in the terminal:
 
