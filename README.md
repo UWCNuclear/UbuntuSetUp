@@ -51,6 +51,8 @@ Step 1:	Follow instructions carefully: https://docs.anaconda.com/anaconda/instal
 
 *More support*:	https://docs.anaconda.com/anaconda/user-guide/troubleshooting/
 
+*Python workshop*:	https://github.com/UWCNuclear/PythonWorkshop  :-)
+
 
 # [If interested :-)] How to install GRSISort on Ubuntu	[A very useful ROOT-based nuclear physics toolkit]
 Step 1:	Follow Steps 1 to 5 carefully: https://github.com/GRIFFINCollaboration/GRSISort/wiki/Setting-up-GRSISort
