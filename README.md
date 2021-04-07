@@ -11,7 +11,7 @@ Step 2:	Install Xming: https://sourceforge.net/projects/xming/
 
 Run Xming (It has to be running in the background before you open a terminal and has to be run every time your computer is rebooted.)
 
-Step 3:	Install Ubuntu version through the Microsoft Store: https://wiki.ubuntu.com/WSL#Installing_Ubuntu_on_WSL_via_the_Microsoft_Store_.28Recommended.29
+Step 3:	Install Ubuntu version (18 or 20) through the Microsoft Store: https://wiki.ubuntu.com/WSL#Installing_Ubuntu_on_WSL_via_the_Microsoft_Store_.28Recommended.29
 
 Step 4:	Set up username and password in the Ubuntu terminal
 
@@ -20,10 +20,10 @@ Step 5:	Type "sudo apt upgrade" in the terminal
 *More support*:	https://wiki.ubuntu.com/WSL
 
 
-# How to install ROOT on Ubuntu	
+# How to install ROOT6 on Ubuntu	
 Step 1:	Install all required and optional packages: https://root.cern/install/dependencies/
 
-Step 2:	Download the ROOT release for the desired platform (https://root.cern/install/all_releases/) using "wget https://root.cern/download/root....tar.gz"
+Step 2:	Download the ROOT6 release for the desired platform (https://root.cern/install/all_releases/) using "wget https://root.cern/download/root....tar.gz"
 
 Step 3:	Unpack the archive: "tar -xzvf root....tar.gz"
 
