@@ -6,7 +6,7 @@
 
 *-- Install Ubuntu from scratch or in dual-boot*
 
-*-- UWC computer lab (soon!)*
+*-- University computer labs (soon!)*
 
 #
 
