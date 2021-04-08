@@ -26,14 +26,17 @@ Step 3.	Install Ubuntu 20 through the Microsoft Store: https://www.microsoft.com
 
 Step 4.	Set up username and password in the Ubuntu terminal
 
-Step 5.	Type in the terminal:
+Step 5.	To update librairies, type in the terminal:
 
     sudo apt update
     sudo apt upgrade
-    sudo apt-cache search grace (check if a particular program is in the Ubuntu repository)
+
+Step 6.	To check if a particular program is in the Ubuntu repository and install the figure editor "grace", type in the terminal:
+
+    sudo apt-cache search grace
     sudo apt install grace
 
-Step 6.	Install the text editor "emacs" by typing in the terminal:
+Step 7.	Install the text editor "emacs" by typing in the terminal:
 
     sudo apt install emacs
 
