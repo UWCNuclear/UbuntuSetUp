@@ -9,6 +9,8 @@
 *-- University computer labs (soon!)*
 
 #
+Link to video: https://www.youtube.com/watch?v=22VtIhzPB1o
+#
 
 Step 1.	Open the Windows 10 Start Menu and search "Turn Windows features on or off"
 
