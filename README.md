@@ -20,6 +20,8 @@ Restart your computer
 
 Step 2.	Install Xming: https://sourceforge.net/projects/xming/
 
+Install Xming-fonts: https://sourceforge.net/projects/xming/files/Xming-fonts/
+
 Run Xming (It has to be running in the background before you open a terminal and has to be run every time your computer is rebooted.)
 
 Step 3.	Install Ubuntu 20 through the Microsoft Store: https://www.microsoft.com/en-za/p/ubuntu-2004-lts/9n6svws3rx71?rtc=1
