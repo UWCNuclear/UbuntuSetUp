@@ -40,11 +40,11 @@ Step 6.	To check if a particular program is in the Ubuntu repository and install
     sudo apt-cache search grace
     sudo apt install grace
 
-Step 7.	Install the text editor "emacs" by typing in the terminal:
+Step 7.	Install the text editor "gedit" by typing in the terminal:
 
-    sudo apt install emacs
+    sudo apt install gedit
 
-*Test*: Type "emacs" in the terminal
+*Test*: Type "gedit" in the terminal
 
 *More support*:	https://wiki.ubuntu.com/WSL and Google
 
@@ -70,7 +70,7 @@ Step 3.	Unpack the archive:
 
     tar -xzvf root_v6.22.08.Linux-ubuntu20-x86_64-gcc9.3.tar.gz
     
-Step 4.	In your home directory (cd ~), open your .bashrc file using emacs and add the following line before saving and closing the file:
+Step 4.	In your home directory (cd ~), open your .bashrc file using gedit (gedit .bashrc) and add the following line before saving and closing the file:
 
     source root/bin/thisroot.sh
 
