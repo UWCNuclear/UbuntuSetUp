@@ -60,7 +60,7 @@ Step 1.	Install all required and optional packages (https://root.cern/install/de
     libmysqlclient-dev libfftw3-dev libcfitsio-dev \
     graphviz-dev libavahi-compat-libdnssd-dev \
     libldap2-dev python-dev libxml2-dev libkrb5-dev \
-    libgsl0-dev libqt4-dev
+    libgsl0-dev
 
 Step 2.	Download the ROOT6 release for the desired platform (https://root.cern/install/all_releases/):
 
@@ -70,7 +70,9 @@ Step 3.	Unpack the archive:
 
     tar -xzvf root_v6.22.08.Linux-ubuntu20-x86_64-gcc9.3.tar.gz
     
-Step 4.	Using emacs, add the line "source root/bin/thisroot.sh" to your .bashrc file in your home directory (~/.bashrc)
+Step 4.	In your home directory (cd ~), open your .bashrc file using emacs and add the following line before saving and closing the file:
+
+    source root/bin/thisroot.sh
 
 Step 5.	Type in the terminal:
 
