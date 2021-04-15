@@ -40,7 +40,7 @@ Step 6.	To check if a particular program is in the Ubuntu repository and install
     sudo apt-cache search grace
     sudo apt install grace
 
-Step 7.	Install the text editor "gedit" by typing in the terminal:
+Step 7.	Install the text editor gedit by typing in the terminal:
 
     sudo apt install gedit
 
@@ -54,7 +54,9 @@ Step 1.	Install all required and optional packages (https://root.cern/install/de
 
     sudo apt-get install dpkg-dev cmake g++ gcc binutils libx11-dev libxpm-dev \
     libxft-dev libxext-dev python libssl-dev
-    
+ 
+and
+ 
     sudo apt-get install gfortran libpcre3-dev \
     xlibmesa-glu-dev libglew1.5-dev libftgl-dev \
     libmysqlclient-dev libfftw3-dev libcfitsio-dev \
