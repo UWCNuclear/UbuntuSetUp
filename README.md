@@ -42,7 +42,7 @@ Step 6.	To check if a particular program is in the Ubuntu repository and install
     sudo apt-cache search grace
     sudo apt install grace
 
-Step 7.	Install the text editor gedit by typing in the terminal:
+Step 7.	Install the text editor "gedit" by typing in the terminal:
 
     sudo apt install gedit
 
