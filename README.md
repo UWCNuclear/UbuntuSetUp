@@ -4,12 +4,14 @@
 
 *-- Update to Windows 10 for free:* https://geeksadvice.com/upgrade-to-windows-10-for-free/ or ask Google
 
-*-- Install Ubuntu from scratch or in dual-boot (might be a better option for slower computers*
+*-- Install Ubuntu from scratch or in dual-boot (might be a better option for slower computers)*
 
 *-- University computer labs (soon!)*
 
 #
-Link to video: https://www.youtube.com/watch?v=22VtIhzPB1o
+Link to Practical #1: How to install Ubuntu subsystem for Windows 10  https://www.youtube.com/watch?v=22VtIhzPB1o
+
+Link to Practical #2: Plotting data with Python and xmgrace  https://www.youtube.com/watch?v=KrcyFavMHiY
 #
 
 Step 1.	Open the Windows 10 Start Menu and search "Turn Windows features on or off"
