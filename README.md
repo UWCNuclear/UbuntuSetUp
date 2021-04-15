@@ -44,7 +44,13 @@ Step 7.	Install the text editor gedit by typing in the terminal:
 
     sudo apt install gedit
 
-*Test*: Type "gedit" in the terminal
+*Test*: Type "gedit" in the terminal. If it complains about connection or display, type the following line in the terminal:
+
+    export DISPLAY=0:0
+    
+Then, type "gedit ~/.bashrc", add the line "export DISPLAY=0:0", save and close. Finally, type in the terminal:
+
+    source ~/.bashrc
 
 *More support*:	https://wiki.ubuntu.com/WSL and Google
 
