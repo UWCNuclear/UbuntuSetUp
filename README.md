@@ -16,7 +16,7 @@
 
 #
 
-Step 1.	Open the Windows 10 Start Menu and search "Turn Windows features on or off"
+[Step 1.]	Open the Windows 10 Start Menu and search "Turn Windows features on or off"
 
 Select "Windows Subsystem for Linux"
  
