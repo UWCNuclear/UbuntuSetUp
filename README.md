@@ -1,6 +1,8 @@
-Link to Practical #1: How to install Ubuntu subsystem for Windows 10  https://www.youtube.com/watch?v=22VtIhzPB1o
+# Link to videos
 
-Link to Practical #2: Plotting data with Python and xmgrace  https://www.youtube.com/watch?v=KrcyFavMHiY
+*Practical #1: How to install Ubuntu subsystem for Windows 10*  https://www.youtube.com/watch?v=22VtIhzPB1o
+
+*Practical #2: Plotting data with Python and xmgrace*  https://www.youtube.com/watch?v=KrcyFavMHiY
 
 # How to install the Ubuntu subsystem for Windows	10
 
@@ -104,9 +106,9 @@ Watch the videos to find the commands. (To download, type "git clone https://git
 # How to install Anaconda, Spyder and Jupyter Notebook on Windows or Ubuntu
 Step 1.	Follow instructions carefully for Windows (https://docs.anaconda.com/anaconda/install/windows/) or for Ubuntu/Debian (https://docs.anaconda.com/anaconda/install/linux/).
 
-*Test*: Run the Monte Carlo code "pi.py" included in this repository. To download, click "Code" at the top right, click "Download ZIP". To run, open "pi.py" in Spyder, click the arrow (run) icon, click on "Plots" in the top right window.
+*Medium Test*: Run the Monte Carlo code "pi.py" included in this repository. To download, click "Code" at the top right, click "Download ZIP". To run, open "pi.py" in Spyder, click the arrow (run) icon, click on "Plots" in the top right window.
 
-*Test*: Run the muon flux plotting and fitting code "muon_flux_example.ipynb" included in this repository. 
+*Medium Test*: Run the muon flux plotting and fitting code "muon_flux_example.ipynb" included in this repository. 
 
 *More support*:	https://docs.anaconda.com/anaconda/user-guide/troubleshooting/  and Google
 
