@@ -34,25 +34,28 @@ Step 3.	Install Ubuntu 20 through the Microsoft Store: https://www.microsoft.com
 
 Step 4.	Set up username and password in the Ubuntu terminal
 
-Step 5.	To update librairies, type in the terminal:
+Step 5.	To update librairies, paste (by using the right click of your mouse pad or middle click of your mouse) the following commands in the terminal:
 
     sudo apt update
+    
+and
+    
     sudo apt upgrade
 
-Step 6.	To check if a particular program is in the Ubuntu repository and install the figure editor "grace", type in the terminal:
+Step 6.	To check if a particular program is in the Ubuntu repository and install the figure editor "grace", paste the following commands in the terminal:
 
     sudo apt-cache search grace
     sudo apt install grace
 
-Step 7.	Install the text editor "gedit" by typing in the terminal:
+Step 7.	Install the text editor "gedit" by pasting in the terminal:
 
     sudo apt install gedit
 
-*Test*: Type "gedit" in the terminal. If it complains about connection or display, type the following line in the terminal:
+*Test*: Type "gedit" in the terminal. If it complains about connection or display, paste the following line in the terminal:
 
     export DISPLAY=0:0
     
-Then, type "gedit ~/.bashrc", add the line "export DISPLAY=0:0", save and close. Finally, type in the terminal:
+Then, type "gedit ~/.bashrc", add the line "export DISPLAY=0:0", save and close. Finally, paste in the terminal:
 
     source ~/.bashrc
 
@@ -60,7 +63,7 @@ Then, type "gedit ~/.bashrc", add the line "export DISPLAY=0:0", save and close.
 
 
 # How to install ROOT6 on Ubuntu	
-Step 1.	Install all required and optional packages (https://root.cern/install/dependencies/) by typing the two following commands in the terminal:
+Step 1.	Install all required and optional packages (https://root.cern/install/dependencies/) by pasting the two following commands in the terminal:
 
     sudo apt-get install dpkg-dev cmake g++ gcc binutils libx11-dev libxpm-dev \
     libxft-dev libxext-dev python libssl-dev
@@ -74,11 +77,11 @@ and
     libldap2-dev python-dev libxml2-dev libkrb5-dev \
     libgsl0-dev
 
-Step 2.	Download the ROOT6 release for the desired platform (https://root.cern/install/all_releases/):
+Step 2.	Download the ROOT6 release for the desired platform (https://root.cern/install/all_releases/) by pasting the following command in the terminal:
 
     wget https://root.cern/download/root_v6.22.08.Linux-ubuntu20-x86_64-gcc9.3.tar.gz
 
-Step 3.	Unpack the archive:
+Step 3.	Unpack the archive by pasting the following command in the terminal:
 
     tar -xzvf root_v6.22.08.Linux-ubuntu20-x86_64-gcc9.3.tar.gz
     
@@ -86,7 +89,7 @@ Step 4.	In your home directory (cd ~), open your .bashrc file using gedit (gedit
 
     source root/bin/thisroot.sh
 
-Step 5.	Type in the terminal:
+Step 5.	Paste the following command in the terminal:
 
     source ~/.bashrc
 
@@ -94,11 +97,11 @@ Step 5.	Type in the terminal:
 
 *Medium test*: Run the germanium detection efficiency code to obtain the efficiency curve: https://github.com/UWCNuclear/RootEffi
 
-Instructions are on the Github page. (To download, type "git clone https://github.com/UWCNuclear/RootEffi.git" in your terminal)
+Instructions are on the Github page. (To download, paste "git clone https://github.com/UWCNuclear/RootEffi.git" in your terminal)
 
 *Advanced test*: (Some editing required :-)) Reproduce the plots from the Covid19 minischool: https://github.com/UWCNuclear/Covid19_minischool
 
-Watch the videos to find the commands. (To download, type "git clone https://github.com/UWCNuclear/Covid19_minischool.git" in your terminal)
+Watch the videos to find the commands. (To download, paste "git clone https://github.com/UWCNuclear/Covid19_minischool.git" in your terminal)
 
 *More support*:	https://root.cern/install/  and Google
 
