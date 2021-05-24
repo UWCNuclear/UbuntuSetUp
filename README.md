@@ -124,12 +124,29 @@ Watch the videos to find the commands. (To download, paste "git clone https://gi
 
 
 # How to install GRSISort on Ubuntu	[A very useful ROOT-based nuclear physics toolkit]
-**Step 1.**	Follow Steps 1, 3, 4, and 5 carefully: https://github.com/GRIFFINCollaboration/GRSISort/wiki/Setting-up-GRSISort
+**Step 1.**	 Install git using:
+
+    sudo apt-get install git
+
+**Step 3.**	 To download the newest version of GRSISort, go to your home directory (cd ~) and paste:
+
+    git clone https://github.com/GRIFFINCollaboration/GRSISort.git
+
+**Step 4.**	 Paste the following line to your ~/.bashrc file:
+
+    source ~/GRSISort/thisgrsi.sh
+
+**Step 5.** To compile GRSISort, go to your GRSISort directory (cd ~/GRSISort) and type:
+
+    make
+
+***More detailed instructions:*** https://github.com/GRIFFINCollaboration/GRSISort/wiki/Setting-up-GRSISort
 
 "sudo apt-get install libblas3"	might be needed for newer versions.
 
 Older versions might need an older ROOT version (for example: ROOT6.22 includes a major PyROOT upgrade).
 
 ***Test:*** All the tests for ROOT should still work: simply replace "root" by "grsisort"
+
 
 ***More support:*** https://github.com/GRIFFINCollaboration/GRSISort/wiki/troubleshooting  and Google
