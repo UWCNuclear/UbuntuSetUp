@@ -4,6 +4,8 @@
 
 *Practical #2: Plotting data with Python and xmgrace*  https://www.youtube.com/watch?v=KrcyFavMHiY
 
+*Practical #3: Detector Efficiency and Peak Fitting*  
+
 # How to install the Ubuntu subsystem for Windows	10
 
 ***Still on Windows 7 or 8?***
