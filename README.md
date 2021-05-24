@@ -135,6 +135,10 @@ Watch the videos to find the commands. (To download, paste "git clone https://gi
 **Step 4.**	 Paste the following line to your ~/.bashrc file:
 
     source ~/GRSISort/thisgrsi.sh
+    
+and paste this line in your terminal:
+
+    source ~/.bashrc
 
 **Step 5.** To compile GRSISort, go to your GRSISort directory (cd ~/GRSISort) and type:
 
