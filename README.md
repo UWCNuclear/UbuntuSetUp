@@ -122,7 +122,7 @@ Watch the videos to find the commands. (To download, paste "git clone https://gi
 
 
 # How to install GRSISort on Ubuntu	[A very useful ROOT-based nuclear physics toolkit]
-**Step 1.**	Follow Steps 1 to 5 carefully: https://github.com/GRIFFINCollaboration/GRSISort/wiki/Setting-up-GRSISort
+**Step 1.**	Follow Steps 1, 3, 4, and 5 carefully: https://github.com/GRIFFINCollaboration/GRSISort/wiki/Setting-up-GRSISort
 
 "sudo apt-get install libblas3"	might be needed for newer versions.
 
