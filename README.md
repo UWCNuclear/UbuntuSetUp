@@ -144,12 +144,12 @@ and paste this line in your terminal:
 
     make
 
+***Test:*** All the tests for ROOT should still work: simply replace "root" by "grsisort"
+
 ***More detailed instructions:*** https://github.com/GRIFFINCollaboration/GRSISort/wiki/Setting-up-GRSISort
+
+***More support:*** https://github.com/GRIFFINCollaboration/GRSISort/wiki/troubleshooting  and Google
 
 "sudo apt-get install libblas3"	might be needed for newer versions.
 
 Older versions of GRSISort might need an older ROOT version (for example: ROOT6.22 includes a major PyROOT upgrade).
-
-***Test:*** All the tests for ROOT should still work: simply replace "root" by "grsisort"
-
-***More support:*** https://github.com/GRIFFINCollaboration/GRSISort/wiki/troubleshooting  and Google
