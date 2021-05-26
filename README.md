@@ -132,7 +132,7 @@ Watch the videos to find the commands. (To download, paste "git clone https://gi
 
     git clone https://github.com/GRIFFINCollaboration/GRSISort.git
 
-**Step 4.**	 Paste the following line in your ~/.bashrc file:
+**Step 4.**	 Paste the following line in your ~/.bashrc file (with gedit ~/.bashrc):
 
     source ~/GRSISort/thisgrsi.sh
     
