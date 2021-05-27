@@ -144,7 +144,7 @@ and paste this line in your terminal:
 
     make
     
-"sudo apt-get install libblas3"	might be needed for newer versions.
+"sudo apt-get install libblas3"	might be needed for newer versions :-)
 
 ***Test:*** All the tests for ROOT should still work: simply replace "root" by "grsisort"
 
