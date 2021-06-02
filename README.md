@@ -128,11 +128,11 @@ Watch the videos to find the commands. (To download, paste "git clone https://gi
 
     sudo apt-get install git
 
-**Step 3.**	 To download the newest version of GRSISort, go to your home directory (cd ~) and paste:
+**Step 2.**	 To download the newest version of GRSISort, go to your home directory (cd ~) and paste:
 
     git clone https://github.com/GRIFFINCollaboration/GRSISort.git
 
-**Step 4.**	 Paste the following line in your ~/.bashrc file (with gedit ~/.bashrc):
+**Step 3.**	 Paste the following line in your ~/.bashrc file (with gedit ~/.bashrc):
 
     source ~/GRSISort/thisgrsi.sh
     
@@ -140,7 +140,7 @@ and paste this line in your terminal:
 
     source ~/.bashrc
 
-**Step 5.** To compile GRSISort, go to your GRSISort directory (cd ~/GRSISort) and type:
+**Step 4.** To compile GRSISort, go to your GRSISort directory (cd ~/GRSISort) and type:
 
     make
     
