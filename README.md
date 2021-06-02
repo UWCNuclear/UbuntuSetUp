@@ -1,4 +1,4 @@
-# Links to practical videos
+# Links to Practical Videos
 
 *Practical #1: How to install the Ubuntu subsystem for Windows 10*  https://www.youtube.com/watch?v=22VtIhzPB1o
 
