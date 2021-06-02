@@ -6,6 +6,8 @@
 
 *Practical #3: Detector Efficiency and Peak Fitting*  https://www.youtube.com/watch?v=OG-s4FhOMIk
 
+*Practical #4: Semi-Empirical Mass Formula* https://www.youtube.com/watch?v=B2W0OYhtddY
+
 # How to install the Ubuntu subsystem for Windows	10
 
 ***Still on Windows 7 or 8?***
