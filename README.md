@@ -92,9 +92,9 @@ and
 
     tar -xzvf root_v6.22.08.Linux-ubuntu20-x86_64-gcc9.3.tar.gz
     
-**Step 4.**	In your home directory (cd ~), open your .bashrc file using gedit (gedit .bashrc) and add the following line before saving and closing the file:
+**Step 4.**	Open your .bashrc file using gedit (gedit ~/.bashrc) and add the following line before saving and closing the file:
 
-    source root/bin/thisroot.sh
+    source ~/root/bin/thisroot.sh
 
 **Step 5.**	Paste the following command in the terminal:
 
