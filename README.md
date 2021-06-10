@@ -114,7 +114,9 @@ Watch the videos to find the commands. (To download, paste "git clone https://gi
 
 
 # How to install Anaconda, Spyder and Jupyter Notebook on Windows or Ubuntu
-**Step 1.**	Follow instructions carefully for Windows (https://docs.anaconda.com/anaconda/install/windows/) or for Ubuntu/Debian (https://docs.anaconda.com/anaconda/install/linux/).
+**Step 1.**	Follow the instructions carefully for Windows: https://docs.anaconda.com/anaconda/install/windows/
+
+You can use Python directly in Ubuntu by typing "python" or "python3". If you want to use Anaconda on Ubuntu, follow carefully the instructions for Ubuntu/Debian: https://docs.anaconda.com/anaconda/install/linux/
 
 ***Medium Test:*** Run the Monte Carlo code "pi.py" included in this repository. To download, click "Code" at the top right, click "Download ZIP". To run, open "pi.py" in Spyder, click the arrow (run) icon, click on "Plots" in the top right window.
 
