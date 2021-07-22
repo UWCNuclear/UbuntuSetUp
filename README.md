@@ -113,7 +113,7 @@ Watch the videos to find the commands. (To download, paste "git clone https://gi
 ***More support:***	https://root.cern/install/  and Google
 
 
-# How to install Anaconda, Spyder and Jupyter Notebook on Windows or Ubuntu
+# How to install Anaconda, Spyder and Jupyter on Windows or Ubuntu
 **Step 1.**	Follow the instructions carefully for Windows: https://docs.anaconda.com/anaconda/install/windows/
 
 On Ubuntu, you can use Python directly by typing "python" or "python3". If you want to use Anaconda on Ubuntu, follow carefully the instructions for Ubuntu/Debian: https://docs.anaconda.com/anaconda/install/linux/
