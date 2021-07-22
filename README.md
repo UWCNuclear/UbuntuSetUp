@@ -166,7 +166,7 @@ Older versions of GRSISort might need an older ROOT version (for example: ROOT6.
 
      tar -xzvf geant4.10.06.p03.tar.gz
 
-**Step 3.**	 Create a build directory along side the unpacked source using:
+**Step 3.**	 Create a build directory alongside the unpacked source using:
 
     mkdir geant4.10.06.p03-build
     
