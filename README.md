@@ -128,7 +128,7 @@ On Ubuntu, you can use Python directly by typing "python" or "python3". If you w
 
 
 # How to install GRSISort on Ubuntu	[A very useful ROOT-based nuclear physics toolkit]
-**Step 1.**	 Install git using:
+**Step 1.**	 If not done already, install git using:
 
     sudo apt-get install git
 
@@ -157,3 +157,39 @@ and paste this line in your terminal:
 ***More support:*** https://github.com/GRIFFINCollaboration/GRSISort/wiki/troubleshooting  and Google
 
 Older versions of GRSISort might need an older ROOT version (for example: ROOT6.22 includes a major PyROOT upgrade).
+
+
+# How to install Geant4 on Ubuntu
+**Step 1.**	 Download the zipped source files from https://geant4.web.cern.ch/support/download and move it to your home directory on Ubuntu (cd ~)
+
+**Step 2.**	 Unpack the Geant4 source package using:
+
+     tar -xzvf geant4.10.06.p03.tar.gz
+
+**Step 3.**	 Create a build directory along side the unpacked source using:
+
+    mkdir geant4.10.06.p03-build
+    
+and move into the build directory:
+
+    cd geant4.10.06.p03-build
+
+**Step 4.** Run CMake by pasting:
+
+    cmake -DGEANT4_INSTALL_DATA=ON .
+    
+ and
+    
+    cmake -DCMAKE_INSTALL_PREFIX=../geant4.10.06.p03-install ../geant4.10.06.p03
+    
+**Step 5.** To run te build, paste:
+
+    make -j
+    
+ and
+  
+    make install
+    
+***Test:*** Run ExampleB1 using the instructions in the attached file "How to Geant4"
+
+***More detailed instructions:*** https://geant4-userdoc.web.cern.ch/UsersGuides/AllGuides/html/InstallationGuide/installguide.html#buildandinstall
