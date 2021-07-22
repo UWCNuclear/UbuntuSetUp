@@ -180,15 +180,19 @@ and move into the build directory:
     
  and
     
-    cmake -DCMAKE_INSTALL_PREFIX=../geant4.10.06.p03-install ../geant4.10.06.p03
+    cmake -DCMAKE_INSTALL_PREFIX=~/geant4.10.06.p03-install ~/geant4.10.06.p03
     
-**Step 5.** To run te build, paste:
+**Step 5.** To run the build, paste:
 
     make -j
     
  and
   
     make install
+    
+**Step 6.** Go to ~/geant4.10.06.p03-install/bin and paste:
+
+    source geant4.sh 
     
 ***Test:*** Run ExampleB1 using the instructions in the attached file "How to Geant4"
 
