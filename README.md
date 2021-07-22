@@ -193,3 +193,5 @@ and move into the build directory:
 ***Test:*** Run ExampleB1 using the instructions in the attached file "How to Geant4"
 
 ***More detailed instructions:*** https://geant4-userdoc.web.cern.ch/UsersGuides/AllGuides/html/InstallationGuide/installguide.html#buildandinstall
+
+***Alternative:*** There is a virtual box that comes with everything installed (requires at least 25 Gb of disk space): https://heberge.cenbg.in2p3.fr/G4VM/index.html
