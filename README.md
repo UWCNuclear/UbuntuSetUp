@@ -178,7 +178,7 @@ and move into the build directory:
 
     cmake -DCMAKE_INSTALL_PREFIX=~/geant4.10.06.p03-install ~/geant4.10.06.p03
     
- and
+ and then
     
     cmake -DGEANT4_INSTALL_DATA=ON .
     
@@ -186,7 +186,7 @@ and move into the build directory:
 
     make -j
     
- and
+ and then
   
     make install
     
