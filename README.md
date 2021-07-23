@@ -160,7 +160,7 @@ Older versions of GRSISort might need an older ROOT version (for example: ROOT6.
 
 
 # How to install Geant4 on Ubuntu
-**Step 1.**	 Download the zipped source files from https://geant4.web.cern.ch/support/download and move it to your home directory on Ubuntu (cd ~)
+**Step 1.**	 Download the zipped source files from https://geant4.web.cern.ch/support/download (using something else than Chrome) and move it to your home directory on Ubuntu (cd ~)
 
 **Step 2.**	 Unpack the Geant4 source package using:
 
