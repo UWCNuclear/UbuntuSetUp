@@ -182,11 +182,7 @@ and move into the build directory:
 
 **Step 5.** Run CMake by pasting:
 
-    cmake -DCMAKE_INSTALL_PREFIX=~/geant4.10.06.p03-install ~/geant4.10.06.p03
-    
- and then
-    
-    cmake -DGEANT4_INSTALL_DATA=ON .
+    cmake -DCMAKE_INSTALL_PREFIX=~/geant4.10.06.p03-install -DGEANT4_INSTALL_DATA=ON -DGEANT4_USE_QT=ON ~/geant4.10.06.p03
     
 **Step 6.** To run the build, paste:
 
