@@ -166,7 +166,9 @@ Older versions of GRSISort might need an older ROOT version (for example: ROOT6.
 
      sudo apt-get install qt5-default
 
-**Step 2.**	 Download the zipped source files from https://geant4.web.cern.ch/support/download (using something else than Chrome) and move it to your home directory on Ubuntu (cd ~)
+**Step 2.**	 Download the zipped source files from https://geant4.web.cern.ch/support/download (using something else than Chrome) and move it to your home directory on Ubuntu by editing the correct path in the following command:
+
+    mv /mnt/WHERE-IT-IS-ON-WINDOWS/geant4.10.06.p03.tar.gz ~
 
 **Step 3.**	 Unpack the Geant4 source package using:
 
