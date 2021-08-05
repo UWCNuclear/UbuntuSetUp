@@ -200,6 +200,15 @@ and paste this line in your terminal:
     
 ***Test:*** Run ExampleB1 using the instructions in the attached file "How to Geant4"
 
+    cd
+    cp -r geant4.10.06.p03/examples/basic/B1 ~
+    mkdir B1-build
+    cd B1-build
+    cmake -DGeant_DIR=~/geant4.10.06.p03-install/lib64/Geant4-G4VERSION ~/B1
+    cmake -DCMAKE_PREFIX_PATH=~/geant4.10.06.p03-install ~/B1
+    make -j
+    ./exampleB1
+
 ***More detailed instructions:*** https://geant4-userdoc.web.cern.ch/UsersGuides/AllGuides/html/InstallationGuide/installguide.html#buildandinstall
 
 ***Alternative:*** There is a virtual box that comes with Geant4 installed (requires at least 30 Gb of disk space): https://heberge.cenbg.in2p3.fr/G4VM/index.html
