@@ -57,6 +57,10 @@ and
 **Step 7.**	Install the text editor "gedit" by pasting in the terminal:
 
     sudo apt install gedit
+    
+**Step 8.**	 If not done already, install git using:
+
+    sudo apt-get install git
 
 ***Test:*** Type "gedit" in the terminal. If it complains about connection or display, paste the following line in the terminal:
 
@@ -128,15 +132,12 @@ On Ubuntu, you can use Python directly by typing "python" or "python3". If you w
 
 
 # How to install GRSISort on Ubuntu	[A very useful ROOT-based nuclear physics toolkit]
-**Step 1.**	 If not done already, install git using:
 
-    sudo apt-get install git
-
-**Step 2.**	 To download the newest version of GRSISort, go to your home directory (cd ~) and paste:
+**Step 1.**	 To download the newest version of GRSISort, go to your home directory (cd ~) and paste:
 
     git clone https://github.com/GRIFFINCollaboration/GRSISort.git
 
-**Step 3.**	 Paste the following line in your ~/.bashrc file (with gedit ~/.bashrc):
+**Step 2.**	 Paste the following line in your ~/.bashrc file (with gedit ~/.bashrc):
 
     source ~/GRSISort/thisgrsi.sh
     
@@ -144,7 +145,7 @@ and paste this line in your terminal:
 
     source ~/.bashrc
 
-**Step 4.** To compile GRSISort, go to your GRSISort directory (cd ~/GRSISort) and type:
+**Step 3.** To compile GRSISort, go to your GRSISort directory (cd ~/GRSISort) and type:
 
     make
     
@@ -160,13 +161,18 @@ Older versions of GRSISort might need an older ROOT version (for example: ROOT6.
 
 
 # How to install Geant4 on Ubuntu
-**Step 1.**	 Download the zipped source files from https://geant4.web.cern.ch/support/download (using something else than Chrome) and move it to your home directory on Ubuntu (cd ~)
 
-**Step 2.**	 Unpack the Geant4 source package using:
+**Step 1.**	Install Qt by pasting in the terminal:
+
+     sudo apt-get install qt5-default
+
+**Step 2.**	 Download the zipped source files from https://geant4.web.cern.ch/support/download (using something else than Chrome) and move it to your home directory on Ubuntu (cd ~)
+
+**Step 3.**	 Unpack the Geant4 source package using:
 
      tar -xzvf geant4.10.06.p03.tar.gz
 
-**Step 3.**	 Create a build directory alongside the unpacked source using:
+**Step 4.**	 Create a build directory alongside the unpacked source using:
 
     mkdir geant4.10.06.p03-build
     
@@ -174,7 +180,7 @@ and move into the build directory:
 
     cd geant4.10.06.p03-build
 
-**Step 4.** Run CMake by pasting:
+**Step 5.** Run CMake by pasting:
 
     cmake -DCMAKE_INSTALL_PREFIX=~/geant4.10.06.p03-install ~/geant4.10.06.p03
     
@@ -182,7 +188,7 @@ and move into the build directory:
     
     cmake -DGEANT4_INSTALL_DATA=ON .
     
-**Step 5.** To run the build, paste:
+**Step 6.** To run the build, paste:
 
     make -j
     
@@ -190,7 +196,7 @@ and move into the build directory:
   
     make install
     
-**Step 6.** Paste the following line in your ~/.bashrc file (with gedit ~/.bashrc):
+**Step 7.** Paste the following line in your ~/.bashrc file (with gedit ~/.bashrc):
 
     source ~/geant4.10.06.p03-install/bin/geant4.shh
     
