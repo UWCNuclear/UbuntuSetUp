@@ -190,9 +190,13 @@ and move into the build directory:
   
     make install
     
-**Step 6.** Go to ~/geant4.10.06.p03-install/bin and paste:
+**Step 6.** Paste the following line in your ~/.bashrc file (with gedit ~/.bashrc):
 
-    source geant4.sh 
+    source ~/geant4.10.06.p03-install/bin/geant4.shh
+    
+and paste this line in your terminal:
+
+    source ~/.bashrc
     
 ***Test:*** Run ExampleB1 using the instructions in the attached file "How to Geant4"
 
