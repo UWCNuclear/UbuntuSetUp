@@ -198,7 +198,7 @@ and paste this line in your terminal:
 
     source ~/.bashrc
     
-***Test:*** Run ExampleB1 using the instructions in the attached file "How to Geant4"
+***Test:*** Run ExampleB1 using the instructions in the attached file "How to Geant4":
 
     cd
     cp -r geant4.10.06.p03/examples/basic/B1 ~
