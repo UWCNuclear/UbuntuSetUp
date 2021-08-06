@@ -227,3 +227,5 @@ and type in "/run/beamOn 10" in the Session box.
 ***More detailed instructions:*** https://geant4-userdoc.web.cern.ch/UsersGuides/AllGuides/html/InstallationGuide/installguide.html#buildandinstall
 
 ***Alternative:*** There is a virtual box that comes with Geant4 installed (requires at least 30 Gb of disk space): https://heberge.cenbg.in2p3.fr/G4VM/index.html
+
+Might need to enable Intel Virtualization Technology on Windows 10. Ask Google how :-)
