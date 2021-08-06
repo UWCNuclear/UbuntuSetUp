@@ -164,17 +164,21 @@ Older versions of GRSISort might need an older ROOT version (for example: ROOT6.
 
 **Step 1.**	Install Qt by pasting in the terminal:
 
-     sudo apt-get install qt5-default
+     sudo apt-get install qt5-default 
+ 
+**Step 2.**	Install X11 Xmu library and headers by pasting in the terminal:
+     
+     sudo apt-get install libxaw7-dev libxaw7
 
-**Step 2.**	 Download the zipped source files from https://geant4.web.cern.ch/support/download (using something else than Chrome) and move it to your home directory on Ubuntu by editing the correct path in the following command:
+**Step 3.**	 Download the zipped source files from https://geant4.web.cern.ch/support/download (using something else than Chrome) and move it to your home directory on Ubuntu by editing the correct path in the following command:
 
     mv /mnt/WHERE-IT-IS-ON-WINDOWS/geant4.10.06.p03.tar.gz ~
 
-**Step 3.**	 Unpack the Geant4 source package using:
+**Step 4.**	 Unpack the Geant4 source package using:
 
      tar -xzvf geant4.10.06.p03.tar.gz
 
-**Step 4.**	 Create a build directory alongside the unpacked source using:
+**Step 5.**	 Create a build directory alongside the unpacked source using:
 
     mkdir geant4.10.06.p03-build
     
@@ -182,11 +186,11 @@ and move into the build directory:
 
     cd geant4.10.06.p03-build
 
-**Step 5.** Run CMake by pasting:
+**Step 6.** Run CMake by pasting:
 
     cmake -DCMAKE_INSTALL_PREFIX=~/geant4.10.06.p03-install -DGEANT4_INSTALL_DATA=ON -DGEANT4_USE_OPENGL_X11=ON -DGEANT4_USE_QT=ON ~/geant4.10.06.p03
     
-**Step 6.** To run the build, paste:
+**Step 7.** To run the build, paste:
 
     make -j
     
@@ -194,7 +198,7 @@ and move into the build directory:
   
     make install
     
-**Step 7.** Paste the following line in your ~/.bashrc file (with gedit ~/.bashrc):
+**Step 8.** Paste the following line in your ~/.bashrc file (with gedit ~/.bashrc):
 
     source ~/geant4.10.06.p03-install/bin/geant4.shh
     
