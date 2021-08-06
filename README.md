@@ -131,7 +131,7 @@ On Ubuntu, you can use Python directly by typing "python" or "python3". If you w
 ***Python workshop:***	https://github.com/UWCNuclear/PythonWorkshop :-)
 
 
-# How to install GRSISort on Ubuntu	[A very useful ROOT-based nuclear physics toolkit]
+# How to install GRSISort on Ubuntu	[A very useful ROOT-based nuclear physics toolkit :-) ]
 
 **Step 1.**	 To download the newest version of GRSISort, go to your home directory (cd ~) and paste:
 
