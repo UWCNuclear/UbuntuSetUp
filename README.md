@@ -221,6 +221,8 @@ and paste this line in your terminal:
     cmake -DCMAKE_PREFIX_PATH=~/geant4.10.06.p03-install ~/B1
     make -j
     ./exampleB1
+    
+and type in "/run/beamOn 10" in the Session box.
 
 ***More detailed instructions:*** https://geant4-userdoc.web.cern.ch/UsersGuides/AllGuides/html/InstallationGuide/installguide.html#buildandinstall
 
