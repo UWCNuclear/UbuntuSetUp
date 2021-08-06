@@ -166,7 +166,7 @@ Older versions of GRSISort might need an older ROOT version (for example: ROOT6.
 
      sudo apt-get install qt5-default
      
-and then
+On the Ubuntu subsystem for Windows, then do:
      
      sudo strip --remove-section=.note.ABI-tag /usr/lib/x86_64-linux-gnu/libQt5Core.so.5
  
