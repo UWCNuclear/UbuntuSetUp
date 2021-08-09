@@ -166,7 +166,7 @@ Older versions of GRSISort might need an older ROOT version (for example: ROOT6.
 
      sudo apt-get install gcc7 gfortran7
 
-**Step 2.**	Get the executable, copy it in a directory with the input file, and run with:
+**Step 2.**	Get the executable from someone, copy it in a directory with the input file, and run with:
 
      ./gosia < filename.inp
      
@@ -178,7 +178,7 @@ Older versions of GRSISort might need an older ROOT version (for example: ROOT6.
 
 # How to install NuShellX on Ubuntu
 
-**Step 1.**	Get the files and copy them in your home directory.
+**Step 1.**	Get the files from someone and unzip them in your home directory.
 
 **Step 2.**	Paste the following lines in your ~/.bashrc file (with gedit ~/.bashrc):
 
