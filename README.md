@@ -169,6 +169,11 @@ Older versions of GRSISort might need an older ROOT version (for example: ROOT6.
 **Step 2.**	Get the executable, copy it in a directory with the input file, and run with:
 
      ./gosia < filename.inp
+     
+
+**Step 3.** Use a script to integrate the yields:	https://github.com/UWCNuclear/IntegratedYields
+     
+***More support:*** http://www.pas.rochester.edu/~cline/Gosia/
 
 
 # How to install NuShellX on Ubuntu
@@ -182,6 +187,18 @@ Older versions of GRSISort might need an older ROOT version (for example: ROOT6.
     export nushellx_sps=$nuxhome/nushellx/sps/
     export mass_data=$nuxhome/nushellx/toi/mass-data/
     export toi_data=$nuxhome/nushellx/toi/toi-data/
+    alias copy=cp
+    alias del=rm
+    alias q='qstat -u jnorce'
+    alias qall='checknode -v ifi-003'
+    alias sd='cd'
+    alias di='ls -g -l -a'
+    alias dis='ls -tr -l -g -a'
+    alias d='ls -l | egrep ^d'
+    alias ed='vi'
+    alias md='mkdir'
+
+***More support:*** nushellx/help/help.pdf
 
 
 # How to install Geant4 on Ubuntu
