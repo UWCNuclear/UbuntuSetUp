@@ -173,7 +173,7 @@ Older versions of GRSISort might need an older ROOT version (for example: ROOT6.
 
 **Step 3.** Use a script to integrate the yields:	https://github.com/UWCNuclear/IntegratedYields
      
-***More support:*** http://www.pas.rochester.edu/~cline/Gosia/
+***Sample files and more support:*** http://www.pas.rochester.edu/~cline/Gosia/
 
 
 # How to install NuShellX on Ubuntu
