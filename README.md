@@ -160,6 +160,30 @@ and paste this line in your terminal:
 Older versions of GRSISort might need an older ROOT version (for example: ROOT6.22 includes a major PyROOT upgrade).
 
 
+# How to install GOSIA on Ubuntu
+
+**Step 1.**	Install librairies:
+
+     sudo apt-get install gcc7 gfortran7
+
+**Step 2.**	Get the executable, copy it in a directory with the input file, and run with:
+
+     ./gosia < filename.inp
+
+
+# How to install NuShellX on Ubuntu
+
+**Step 1.**	Get the files and copy them in your home directory.
+
+**Step 2.**	Edit and paste the following lines in your ~/.bashrc file (with gedit ~/.bashrc):
+
+    nuxhome=/home/ 
+    export PATH=$nuxhome/aaa/nushellx/linux/nushellx-gfortran-bin:$PATH
+    export nushellx_sps=$nuxhome/aaa/nushellx/sps/
+    export mass_data=$nuxhome/aaa/nushellx/toi/mass-data/
+    export toi_data=$nuxhome/aaa/nushellx/toi/toi-data/
+
+
 # How to install Geant4 on Ubuntu
 
 **Step 1.**	Install Qt by pasting in the terminal:
