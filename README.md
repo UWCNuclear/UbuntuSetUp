@@ -175,13 +175,13 @@ Older versions of GRSISort might need an older ROOT version (for example: ROOT6.
 
 **Step 1.**	Get the files and copy them in your home directory.
 
-**Step 2.**	Edit and paste the following lines in your ~/.bashrc file (with gedit ~/.bashrc):
+**Step 2.**	Paste the following lines in your ~/.bashrc file (with gedit ~/.bashrc):
 
     nuxhome=/home/ 
-    export PATH=$nuxhome/aaa/nushellx/linux/nushellx-gfortran-bin:$PATH
-    export nushellx_sps=$nuxhome/aaa/nushellx/sps/
-    export mass_data=$nuxhome/aaa/nushellx/toi/mass-data/
-    export toi_data=$nuxhome/aaa/nushellx/toi/toi-data/
+    export PATH=$nuxhome/nushellx/linux/nushellx-gfortran-bin:$PATH
+    export nushellx_sps=$nuxhome/nushellx/sps/
+    export mass_data=$nuxhome/nushellx/toi/mass-data/
+    export toi_data=$nuxhome/nushellx/toi/toi-data/
 
 
 # How to install Geant4 on Ubuntu
