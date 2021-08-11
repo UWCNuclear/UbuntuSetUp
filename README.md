@@ -182,7 +182,7 @@ Older versions of GRSISort might need an older ROOT version (for example: ROOT6.
 
 **Step 2.**	Paste the following lines in your ~/.bashrc file (with gedit ~/.bashrc):
 
-    nuxhome=/home/ 
+    nuxhome=~ 
     export PATH=$nuxhome/nushellx/linux/nushellx-gfortran-bin:$PATH
     export nushellx_sps=$nuxhome/nushellx/sps/
     export mass_data=$nuxhome/nushellx/toi/mass-data/
