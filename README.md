@@ -178,6 +178,8 @@ Older versions of GRSISort might need an older ROOT version (for example: ROOT6.
 
 # How to install NuShellX on Ubuntu
 
+Ubuntu 20 doesn't seem to support libgfortran3, so the Ubuntu 18 subsystem would be required to run NuShellX. Or it can run directly on Windows :-)
+
 **Step 1.**	Get the files from someone and unzip them in your home directory.
 
 **Step 2.**	Paste the following lines in your ~/.bashrc file (with gedit ~/.bashrc):
@@ -197,6 +199,10 @@ Older versions of GRSISort might need an older ROOT version (for example: ROOT6.
     alias d='ls -l | egrep ^d'
     alias ed='vi'
     alias md='mkdir'
+    
+**Step 3.**	Give permissions to run the executables:
+
+    chmod +rwx ~/nushellx/linux/nushellx-gfortran-bin/*
 
 ***More support:*** nushellx/help/help.pdf
 
