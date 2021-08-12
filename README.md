@@ -170,7 +170,7 @@ Older versions of GRSISort might need an older ROOT version (for example: ROOT6.
 
      gfortran -o gosia gosia_20110524.9.f
 
-**Step 32.**	run with:
+**Step 3.**	run with:
 
      ./gosia < filename.inp
 
