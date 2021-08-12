@@ -166,12 +166,15 @@ Older versions of GRSISort might need an older ROOT version (for example: ROOT6.
 
      sudo apt-get install gcc7 gfortran7
 
-**Step 2.**	Get the executable from someone, copy it in a directory with the input file, and run with:
+**Step 2.**	Get the code from https://www.ikp.uni-koeln.de/~warr/gosia/ and compile with:
+
+     gfortran -o gosia gosia_20110524.9.f
+
+**Step 32.**	run with:
 
      ./gosia < filename.inp
-     
 
-**Step 3.** Use a script to integrate the yields:	https://github.com/UWCNuclear/IntegratedYields
+**Step 4.** Use a script to integrate the yields:	https://github.com/UWCNuclear/IntegratedYields
      
 ***Sample files and more support:*** http://www.pas.rochester.edu/~cline/Gosia/
 
