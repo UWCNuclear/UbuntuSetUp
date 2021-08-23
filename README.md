@@ -162,7 +162,7 @@ Older versions of GRSISort might need an older ROOT version (for example: ROOT6.
 
 # How to install GOSIA on Ubuntu
 
-**Step 1.**	Install librairies:
+**Step 1.**	Install librairies with:
 
      sudo apt-get install gcc7 gfortran7
 
@@ -170,7 +170,7 @@ Older versions of GRSISort might need an older ROOT version (for example: ROOT6.
 
      gfortran -o gosia gosia_20110524.9.f
 
-**Step 3.**	run with:
+**Step 3.**	Tun with:
 
      ./gosia < filename.inp
 
