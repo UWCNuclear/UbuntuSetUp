@@ -261,7 +261,7 @@ and paste this line in your terminal:
 
     source ~/.bashrc
     
-***Test:*** Run ExampleB1 using the instructions in the attached file "How to Geant4":
+***Test:*** Run ExampleB1 with the following instructions:
 
     cd
     cp -r geant4.10.06.p03/examples/basic/B1 ~
@@ -272,7 +272,9 @@ and paste this line in your terminal:
     make -j
     ./exampleB1
     
-and type in "/run/beamOn 10" in the Session box.
+and then, in the Qt Session box, type:
+
+    /run/beamOn 10
 
 ***More detailed instructions:*** https://geant4-userdoc.web.cern.ch/UsersGuides/AllGuides/html/InstallationGuide/installguide.html#buildandinstall
 
