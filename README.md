@@ -228,9 +228,10 @@ On the Ubuntu subsystem for Windows, then do:
      
      sudo apt-get install libxaw7-dev libxaw7
 
-**Step 3.**	 Download the zipped source files from https://geant4.web.cern.ch/support/download (using something else than Chrome) and move it to your home directory on Ubuntu by editing the correct path in the following command:
+**Step 3.**	 Download the zipped source files from https://geant4.web.cern.ch/support/download (using another browser than Chrome) and move it to your home directory on Ubuntu by editing the correct path in the following command:
 
-    mv /mnt/WHERE-IT-IS-ON-WINDOWS/geant4.10.06.p03.tar.gz ~
+    mkdir ~/G4
+    mv /mnt/WHERE-IT-IS-ON-WINDOWS/geant4.10.06.p03.tar.gz ~/G4
 
 **Step 4.**	 Unpack the Geant4 source package using:
 
@@ -246,8 +247,8 @@ and move into the build directory:
 
 **Step 6.** Run CMake by pasting:
 
-    cmake -DCMAKE_INSTALL_PREFIX=~/geant4.10.06.p03-install  \
-    -DGEANT4_INSTALL_DATA=ON -DGEANT4_USE_OPENGL_X11=ON -DGEANT4_USE_QT=ON ~/geant4.10.06.p03
+    cmake -DCMAKE_INSTALL_PREFIX=~/G4/geant4.10.06.p03-install  \
+    -DGEANT4_INSTALL_DATA=ON -DGEANT4_USE_OPENGL_X11=ON -DGEANT4_USE_QT=ON ~/G4/geant4.10.06.p03
     
 **Step 7.** To run the build, paste:
 
@@ -259,7 +260,7 @@ and move into the build directory:
     
 **Step 8.** Paste the following line in your ~/.bashrc file (with gedit ~/.bashrc):
 
-    source ~/geant4.10.06.p03-install/bin/geant4.shh
+    source ~/G4/geant4.10.06.p03-install/bin/geant4.shh
     
 and paste this line in your terminal:
 
@@ -267,12 +268,12 @@ and paste this line in your terminal:
     
 ***Test:*** Run ExampleB1 with the following instructions:
 
-    cd
+    cd ~/G4
     cp -r geant4.10.06.p03/examples/basic/B1 ~
     mkdir B1-build
     cd B1-build
-    cmake -DGeant_DIR=~/geant4.10.06.p03-install/lib64/Geant4-G4VERSION ~/B1
-    cmake -DCMAKE_PREFIX_PATH=~/geant4.10.06.p03-install ~/B1
+    cmake -DGeant_DIR=~/G4/geant4.10.06.p03-install/lib64/Geant4-G4VERSION ~/B1
+    cmake -DCMAKE_PREFIX_PATH=~/G4/geant4.10.06.p03-install ~/B1
     make -j
     ./exampleB1
     
