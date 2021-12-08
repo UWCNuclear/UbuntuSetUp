@@ -288,3 +288,58 @@ and then, in the Qt Session box, type:
 Intel Virtualization Technology might need to be enabled on Windows. Ask Google how :-)
 
 # How to install RadWare on Ubuntu
+
+git clone https://github.com/radforddc/rw05
+sudo apt-get install gcc make libreadline-dev libgtk2.0-dev libpawlib-lesstif3-dev
+
+cd ~/rw05/src
+cp Makefile.linux Makefile
+
+gedit Makefile
+Edit:
+INSTALL_DIR = ${HOME}/rw05
+INSTALL = /usr/bin/install -m 0644 -o nikita -g users
+INSTALL_BIN = /usr/bin/install -m 0755 -o nikita -g users
+
+make all
+sudo make install
+
+gedit ~/.bashrc
+Add:
+** ## Radware
+#####################################
+** #   these variables point to directories containing various RadWare files
+export RADWARE_FONT_LOC=~/rw05/font
+export RADWARE_ICC_LOC=~/rw05/icc
+export RADWARE_GFONLINE_LOC=~/rw05/doc
+
+** #   this variable specifies whether to ring the bell in RadWare cursor routines
+export RADWARE_CURSOR_BELL=n
+
+** #   this variable specifies whether to overwrite existing files
+export RADWARE_OVERWRITE_FILE=ask
+
+** #   this variable specifies whether to require the return key in Y/N questions
+export RADWARE_AWAIT_RETURN=n
+
+** #   this variable specifies the requested initial size of the level scheme
+** #     display in xmgls, xmesc and xmlev (width and height in pixels)
+export RADWARE_XMG_SIZE=600x500
+
+alias cube='~/rw05/src/xm4dg'
+alias gf3='~/rw05/src/gf3'
+alias xmgf3='~/rw05/src/xmgf3'
+alias escl8r='~/rw05/src/escl8r'
+alias gls='~/rw05/src/gls'
+alias xmgls='~/rw05/src/xmgls'
+alias xmesc='~/rw05/src/xmesc'
+alias Source='~/rw05/src/Source'
+alias effit='~/rw05/src/effit'
+alias encal='~/rw05/src/encal'
+alias slice='~/rw05/src/slice'
+alias xmgf3='~/rw05/src/xmgf3'
+** #alias eg2rad='~/Downloads/eg2rad'
+alias eg2rad='~/rw05/src/eg2rad'
+#####################################
+
+source ~/.bashrc
