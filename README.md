@@ -311,7 +311,7 @@ and
     
      cp Makefile.linux Makefile
 
-     gedit Makefile
+     gedit Makefile &
     
 Edit the following lines:
 
@@ -321,7 +321,7 @@ Edit the following lines:
     
     INSTALL_BIN = /usr/bin/install -m 0755 -o "username" -g users
     
-**step 5.** Installation, copy and paste the following:
+**step 5.** Installation, copy and paste the following on terminal:
    
     make all
    
