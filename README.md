@@ -289,29 +289,46 @@ Intel Virtualization Technology might need to be enabled on Windows. Ask Google 
 
 # How to install RadWare on Ubuntu
 
-**step 1.** update librairies
+**step 1.** update libraries by pasting the following on terminal:
+
+    sudo apt update
+    
+and
+    
+    sudo apt upgrade
 
 **step 2.** git clone https://github.com/radforddc/rw05
+
 **step 3.** install the following libraries, copy and paste on terminal:
 
     sudo apt-get install gcc make libreadline-dev libgtk2.0-dev libpawlib-lesstif3-dev
 
 **step 4.**
     cd ~/rw05/src
+    
     cp Makefile.linux Makefile
 
     gedit Makefile
+    
 Edit:
+
     INSTALL_DIR = ${HOME}/rw05
+    
     INSTALL = /usr/bin/install -m 0644 -o nikita -g users
+    
     INSTALL_BIN = /usr/bin/install -m 0755 -o nikita -g users
+    
 **step 5.**
+   
    make all
+   
    sudo make install
 
 **step 6.**
    gedit ~/.bashrc
-and paste the follwoing lines:
+   
+and paste the following lines:
+
 ** ## Radware
 #####################################
 ** #   these variables point to directories containing various RadWare files
