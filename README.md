@@ -14,7 +14,7 @@
 
 - *Update to Windows 10 for free:* https://geeksadvice.com/upgrade-to-windows-10-for-free/ or ask Google
 
-- *Install Ubuntu from scratch or in dual-boot (might be a better option for slower computers)*
+- *Install Ubuntu from scratch or in dual-boot (you can only use one system at a time) (might be a better option for slower computers)*
 
 - *University computer labs (soon!)*
 
@@ -45,6 +45,8 @@ Run Xming (It has to be running in the background before you open a terminal and
 and
     
     sudo apt upgrade
+    
+These commands should be used regularly to keep your system up to date :-)
 
 **Step 6.**	To check if a particular program is in the Ubuntu repository and install the figure editor "grace", paste the following commands in the terminal:
 
