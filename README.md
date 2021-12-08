@@ -294,8 +294,9 @@ Intel Virtualization Technology might need to be enabled on Windows. Ask Google 
 
      sudo apt-get install gcc make libreadline-dev libgtk2.0-dev libpawlib-lesstif3-dev
      
-**Step 2.** Download the RadWare package by pasting the following line in your Ubuntu terminal:
+**Step 2.** To download the RadWare package in youy home directory, paste the following lines in your Ubuntu terminal:
 
+     cd
      git clone https://github.com/radforddc/rw05
 
 **Step 3.** To set up the Makefile, go to the src directory and copy the Makefile for Linux:
