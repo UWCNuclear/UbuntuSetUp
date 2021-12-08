@@ -297,37 +297,41 @@ and
     
     sudo apt upgrade
 
-**step 2.** git clone https://github.com/radforddc/rw05
+**step 2.** download the RadWare package by copy and paste the following on terminal:
+
+     git clone https://github.com/radforddc/rw05
 
 **step 3.** install the following libraries, copy and paste on terminal:
 
-    sudo apt-get install gcc make libreadline-dev libgtk2.0-dev libpawlib-lesstif3-dev
+     sudo apt-get install gcc make libreadline-dev libgtk2.0-dev libpawlib-lesstif3-dev
 
-**step 4.**
-    cd ~/rw05/src
+**step 4.** copy and paste the following on terminal:
     
-    cp Makefile.linux Makefile
+     cd ~/rw05/src
+    
+     cp Makefile.linux Makefile
 
-    gedit Makefile
+     gedit Makefile
     
-Edit:
+Edit the following lines:
 
     INSTALL_DIR = ${HOME}/rw05
     
-    INSTALL = /usr/bin/install -m 0644 -o nikita -g users
+    INSTALL = /usr/bin/install -m 0644 -o "username" -g users
     
-    INSTALL_BIN = /usr/bin/install -m 0755 -o nikita -g users
+    INSTALL_BIN = /usr/bin/install -m 0755 -o "username" -g users
     
-**step 5.**
+**step 5.** Installation, copy and paste the following:
    
     make all
    
     sudo make install
 
-**step 6.**
+**step 6.** Edit the ~/.bashrc file, copy and paste the following on terminal:
+
     gedit ~/.bashrc
    
-and paste the following lines in your ~/.bashrc:
+and paste the following lines in your ~/.bashrc file:
 
     ## Radware
     #####################################
@@ -365,4 +369,5 @@ and paste the following lines in your ~/.bashrc:
     alias eg2rad='~/rw05/src/eg2rad'
     #####################################
 
+**step 7.** paste the following in terminal:
     source ~/.bashrc
