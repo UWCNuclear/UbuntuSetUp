@@ -289,49 +289,35 @@ Intel Virtualization Technology might need to be enabled on Windows. Ask Google 
 
 # How to install RadWare on Ubuntu
 
-**step 1.** update libraries by pasting the following on terminal:
 
-    sudo apt update
-    
-and
-    
-    sudo apt upgrade
+**Step 1.** To install the following libraries, paste:
 
-**step 2.** download the RadWare package by copy and paste the following on terminal:
+     sudo apt-get install gcc make libreadline-dev libgtk2.0-dev libpawlib-lesstif3-dev
+     
+**Step 2.** Download the RadWare package by pasting the following line in your Ubuntu terminal:
 
      git clone https://github.com/radforddc/rw05
 
-**step 3.** install the following libraries, copy and paste on terminal:
-
-     sudo apt-get install gcc make libreadline-dev libgtk2.0-dev libpawlib-lesstif3-dev
-
-**step 4.** copy and paste the following on terminal:
+**Step 3.** To set up the Makefile, go to the src directory and copy the Makefile for Linux:
     
-     cd ~/rw05/src
-    
-     cp Makefile.linux Makefile
+    cd ~/rw05/src
+    cp Makefile.linux Makefile
 
-     gedit Makefile &
-    
-Edit the following lines:
+**Step 4.** Edit the following lines in your Makefile (with "gedit Makefile") to the rw05 directory and your username:
 
     INSTALL_DIR = ${HOME}/rw05
+    INSTALL = /usr/bin/install -m 0644 -o USERNAME -g users
+    INSTALL_BIN = /usr/bin/install -m 0755 -o USERNAME -g users
     
-    INSTALL = /usr/bin/install -m 0644 -o "username" -g users
-    
-    INSTALL_BIN = /usr/bin/install -m 0755 -o "username" -g users
-    
-**step 5.** Installation, copy and paste the following on terminal:
+**Step 5.** To compile and install, paste:
    
     make all
+    
+and then
    
     sudo make install
 
-**step 6.** Edit the ~/.bashrc file, copy and paste the following on terminal:
-
-    gedit ~/.bashrc
-   
-and paste the following lines in your ~/.bashrc file:
+**Step 6.** Paste the following lines in your ~/.bashrc file (with "gedit ~/.bashrc"):
 
     ## Radware
     #####################################
@@ -365,9 +351,13 @@ and paste the following lines in your ~/.bashrc file:
     alias encal='~/rw05/src/encal'
     alias slice='~/rw05/src/slice'
     alias xmgf3='~/rw05/src/xmgf3'
-    #alias eg2rad='~/Downloads/eg2rad'
     alias eg2rad='~/rw05/src/eg2rad'
     #####################################
 
-**step 7.** paste the following in terminal:
+and paste this line in your terminal:
+
     source ~/.bashrc
+    
+***Test:*** Type "gf3" in the terminal.
+
+***More support:*** https://radware.phy.ornl.gov/download.html
