@@ -365,7 +365,7 @@ and paste the following lines in your ~/.bashrc file:
     alias encal='~/rw05/src/encal'
     alias slice='~/rw05/src/slice'
     alias xmgf3='~/rw05/src/xmgf3'
-    ** #alias eg2rad='~/Downloads/eg2rad'
+    #alias eg2rad='~/Downloads/eg2rad'
     alias eg2rad='~/rw05/src/eg2rad'
     #####################################
 
