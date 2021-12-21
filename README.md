@@ -1,12 +1,30 @@
+[*Practical videos*](https://github.com/UWCNuclear/UbuntuSetUp/#links-to-practical-videos)
+
+[*Ubuntu subsystem for Windows 10*](https://github.com/UWCNuclear/UbuntuSetUp/#how-to-install-the-ubuntu-subsystem-for-windows10)
+
+[*ROOT*](https://github.com/UWCNuclear/UbuntuSetUp/#how-to-install-root6-on-ubuntu)
+
+[*Anaconda*](https://github.com/UWCNuclear/UbuntuSetUp/#how-to-install-anaconda-spyder-and-jupyter-on-windows-or-ubuntu)
+
+[GRSISort](https://github.com/UWCNuclear/UbuntuSetUp/#how-to-install-grsisort-on-ubuntua-very-useful-root-based-nuclear-physics-toolkit---)
+
+[*GOSIA*](https://github.com/UWCNuclear/UbuntuSetUp/#how-to-install-gosia-on-ubuntu)
+
+[*NuShellX*](https://github.com/UWCNuclear/UbuntuSetUp/#how-to-install-nushellx-on-ubuntu)
+
+[*Geant4*](https://github.com/UWCNuclear/UbuntuSetUp/#how-to-install-geant4-on-ubuntu)
+
+[*RadWare*](https://github.com/UWCNuclear/UbuntuSetUp/#how-to-install-geant4-on-ubuntu)
+
 # Links to Practical Videos
 
-*Practical #1: How to install the Ubuntu subsystem for Windows 10*  https://www.youtube.com/watch?v=22VtIhzPB1o
+*Practical #1: How to install the Ubuntu subsystem for Windows 10*: https://www.youtube.com/watch?v=22VtIhzPB1o
 
-*Practical #2: Plotting data with Python and xmgrace*  https://www.youtube.com/watch?v=KrcyFavMHiY
+*Practical #2: Plotting data with Python and xmgrace*: https://www.youtube.com/watch?v=KrcyFavMHiY
 
-*Practical #3: Detector Efficiency and Peak Fitting*  https://www.youtube.com/watch?v=OG-s4FhOMIk
+*Practical #3: Detector Efficiency and Peak Fitting*: https://www.youtube.com/watch?v=OG-s4FhOMIk
 
-*Practical #4: Semi-Empirical Mass Formula* https://www.youtube.com/watch?v=B2W0OYhtddY
+*Practical #4: Semi-Empirical Mass Formula*: https://www.youtube.com/watch?v=B2W0OYhtddY
 
 # How to install the Ubuntu subsystem for Windows	10
 
