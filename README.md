@@ -1,6 +1,6 @@
 [Practical videos](https://github.com/UWCNuclear/UbuntuSetUp/#links-to-practical-videos)
 
-[Ubuntu subsystem for Windows 10*](https://github.com/UWCNuclear/UbuntuSetUp/#how-to-install-the-ubuntu-subsystem-for-windows10)
+[Ubuntu subsystem for Windows 10](https://github.com/UWCNuclear/UbuntuSetUp/#how-to-install-the-ubuntu-subsystem-for-windows10)
 
 [ROOT](https://github.com/UWCNuclear/UbuntuSetUp/#how-to-install-root6-on-ubuntu)
 
