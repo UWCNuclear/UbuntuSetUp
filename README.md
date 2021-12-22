@@ -1,20 +1,22 @@
--- [Links to Practical videos](https://github.com/UWCNuclear/UbuntuSetUp/#links-to-practical-videos)
+**Jump to:**
 
--- [How to install Windows Subsystem for Linux (Ubuntu) on Windows 10](https://github.com/UWCNuclear/UbuntuSetUp/#how-to-install-the-ubuntu-subsystem-for-windows10)
+- [Links to Practical videos](https://github.com/UWCNuclear/UbuntuSetUp/#links-to-practical-videos)
 
--- [How to install ROOT on Ubuntu](https://github.com/UWCNuclear/UbuntuSetUp/#how-to-install-root6-on-ubuntu)
+- [How to install Windows Subsystem for Linux (Ubuntu) on Windows 10](https://github.com/UWCNuclear/UbuntuSetUp/#how-to-install-the-ubuntu-subsystem-for-windows10)
 
--- [How to install Anaconda, Spyder and Jupyter on Windows or Ubuntu](https://github.com/UWCNuclear/UbuntuSetUp/#how-to-install-anaconda-spyder-and-jupyter-on-windows-or-ubuntu)
+- [How to install ROOT on Ubuntu](https://github.com/UWCNuclear/UbuntuSetUp/#how-to-install-root6-on-ubuntu)
 
--- [How to install GRSISort on Ubuntu](https://github.com/UWCNuclear/UbuntuSetUp/#how-to-install-grsisort-on-ubuntua-very-useful-root-based-nuclear-physics-toolkit---)
+- [How to install Anaconda, Spyder and Jupyter on Windows or Ubuntu](https://github.com/UWCNuclear/UbuntuSetUp/#how-to-install-anaconda-spyder-and-jupyter-on-windows-or-ubuntu)
 
--- [How to install GOSIA on Ubuntu](https://github.com/UWCNuclear/UbuntuSetUp/#how-to-install-gosia-on-ubuntu)
+- [How to install GRSISort on Ubuntu](https://github.com/UWCNuclear/UbuntuSetUp/#how-to-install-grsisort-on-ubuntua-very-useful-root-based-nuclear-physics-toolkit---)
 
--- [How to install NuShellX on Ubuntu](https://github.com/UWCNuclear/UbuntuSetUp/#how-to-install-nushellx-on-ubuntu)
+- [How to install GOSIA on Ubuntu](https://github.com/UWCNuclear/UbuntuSetUp/#how-to-install-gosia-on-ubuntu)
 
--- [How to install Geant4 on Ubuntu](https://github.com/UWCNuclear/UbuntuSetUp/#how-to-install-geant4-on-ubuntu)
+- [How to install NuShellX on Ubuntu](https://github.com/UWCNuclear/UbuntuSetUp/#how-to-install-nushellx-on-ubuntu)
 
--- [How to install RadWare on Ubuntu](https://github.com/UWCNuclear/UbuntuSetUp/#how-to-install-geant4-on-ubuntu)
+- [How to install Geant4 on Ubuntu](https://github.com/UWCNuclear/UbuntuSetUp/#how-to-install-geant4-on-ubuntu)
+
+- [How to install RadWare on Ubuntu](https://github.com/UWCNuclear/UbuntuSetUp/#how-to-install-geant4-on-ubuntu)
 
 # Links to Practical Videos
 
