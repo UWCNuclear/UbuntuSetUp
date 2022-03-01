@@ -56,7 +56,7 @@ Run Xming (It has to be running in the background before you open a terminal and
 
 **Step 3.**	Install Ubuntu 20 through the Microsoft Store (you don't have to sign in unless you are using a VPN): https://www.microsoft.com/en-za/p/ubuntu-2004-lts/9n6svws3rx71?rtc=1
 
-**Step 4.**	Set up username and password in the Ubuntu terminal (for safety reasons, the password does not show up as you type it)
+**Step 4.**	Set up username and password in the Ubuntu terminal. Do not close the window before it asks you to set up a username and password. (For safety reasons, the password does not show up as you type it.)
 
 **Step 5.**	To update librairies, paste (by using the right click of your mouse pad or middle click of your mouse) the following commands in the terminal:
 
