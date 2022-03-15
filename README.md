@@ -2,9 +2,9 @@
 
 - [Links to Practical videos](https://github.com/UWCNuclear/UbuntuSetUp/#links-to-practical-videos)
 
-- [How to install Windows Subsystem for Linux (Ubuntu) on Windows 10](https://github.com/UWCNuclear/UbuntuSetUp/#how-to-install-the-ubuntu-subsystem-for-windows10)
+- [How to install Windows Subsystem for Linux (Ubuntu) on Windows 10](https://github.com/UWCNuclear/UbuntuSetUp/#how-to-install-windows-subsystem-for-linux-on-windows10)
 
-- [How to install ROOT on Ubuntu](https://github.com/UWCNuclear/UbuntuSetUp/#how-to-install-root6-on-ubuntu)
+- [How to install ROOT on Ubuntu](https://github.com/UWCNuclear/UbuntuSetUp/#how-to-install-root-on-ubuntu)
 
 - [How to install Anaconda, Spyder and Jupyter on Windows or Ubuntu](https://github.com/UWCNuclear/UbuntuSetUp/#how-to-install-anaconda-spyder-and-jupyter-on-windows-or-ubuntu)
 
@@ -16,7 +16,7 @@
 
 - [How to install Geant4 on Ubuntu](https://github.com/UWCNuclear/UbuntuSetUp/#how-to-install-geant4-on-ubuntu)
 
-- [How to install RadWare on Ubuntu](https://github.com/UWCNuclear/UbuntuSetUp/#how-to-install-geant4-on-ubuntu)
+- [How to install RadWare on Ubuntu](https://github.com/UWCNuclear/UbuntuSetUp/#how-to-install-radware-on-ubuntu)
 
 # Links to Practical Videos
 
