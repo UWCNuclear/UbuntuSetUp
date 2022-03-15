@@ -1,6 +1,6 @@
 **Jump to:**
 
-- [Links to Practical videos](https://github.com/UWCNuclear/UbuntuSetUp/#links-to-practical-videos)
+- [Links to Practical Videos](https://github.com/UWCNuclear/UbuntuSetUp/#links-to-practical-videos)
 
 - [How to install Windows Subsystem for Linux (Ubuntu) on Windows 10](https://github.com/UWCNuclear/UbuntuSetUp/#how-to-install-windows-subsystem-for-linux-ubuntu-on-windows-10)
 
