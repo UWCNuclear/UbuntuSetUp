@@ -186,7 +186,7 @@ Older versions of GRSISort might need an older ROOT version (for example: ROOT6.
 
 **Step 1.**	Install librairies with:
 
-     sudo apt-get install gcc7 gfortran7
+     sudo apt-get install gcc-7 gfortran-7
 
 **Step 2.**	Download the code from https://www.ikp.uni-koeln.de/~warr/gosia/ and move it to your home directory on Ubuntu by editing the correct path in the following command:
 
