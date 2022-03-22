@@ -387,23 +387,23 @@ and paste this line in your terminal:
 
 # How to install Gremlin on ubuntu
 
-**step1.** Download the gremlin.f file from the gosia homepage using the link 
+**step 1.** Download the gremlin.f file from the gosia homepage using the link 
         http://www.pas.rochester.edu/~cline/Gosia/
 
-**step2.** After downloading the gremlin.f file run the command:
+**step 2.** After downloading the gremlin.f file run the command:
 
       gfortran-7 -o gremlin gremlin.f 
 or:
 
       gfortran -o gremlin gremlin.f 
-**step3.** Once the above code has run, No errors should have appeared during the compiling phase. Warnings being displayed in the terminal is perfectly fine. 
+**step 3.** Once the above code has run, No errors should have appeared during the compiling phase. Warnings being displayed in the terminal is perfectly fine. 
 
-**step4.** After compiling has been completed, a file called gremlin will have been created. This can be executed using the following command:
+**step 4.** After compiling has been completed, a file called gremlin will have been created. This can be executed using the following command:
        
        ./gremlin
 A prompt will appear asking for details to be placed into the prompt. If this appears then gremlin is working perfectly.
 
-**step5.** If there are errors being produced in the compiling process, this will need to be addressed by a case by case bases. However, below are four errors that have been encounted while compiling gremlin and the solutions to those errors:
+**step 5.** If there are errors being produced in the compiling process, this will need to be addressed by a case by case bases. However, below are four errors that have been encounted while compiling gremlin and the solutions to those errors:
 
         gremlin.f:1046:72:
         ATT   =   ATT  +  THICKN(J) * MU0 * EXP(SPLCURVE(J,'U',X))
