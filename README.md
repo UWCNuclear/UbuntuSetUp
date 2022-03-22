@@ -385,4 +385,47 @@ and paste this line in your terminal:
 
 ***More support:*** https://radware.phy.ornl.gov/download.html
 
-#How to install Gremlin on ubuntu
+# How to install Gremlin on ubuntu
+
+**step1.** Download the gremlin.f file from the gosia homepage using the link 
+        http://www.pas.rochester.edu/~cline/Gosia/
+
+**step2.** After downloading the gremlin.f file run the command:
+
+      gfortran-7 -o gremlin gremlin.f 
+or:
+
+      gfortran -o gremlin gremlin.f 
+**step3.** Once the above code has run, No errors should have appeared during the compiling phase. Warnings being displayed in the terminal is perfectly fine. 
+
+**step4.** After compiling has been completed, a file called gremlin will have been created. This can be executed using the following command:
+       
+       ./gremlin
+A prompt will appear asking for details to be placed into the prompt. If this appears then gremlin is working perfectly.
+
+**step5.** If there are errors being produced in the compiling process, this will need to be addressed by a case by case bases. However, below are four errors that have been encounted while compiling gremlin and the solutions to those errors:
+
+        gremlin.f:1046:72:
+        ATT   =   ATT  +  THICKN(J) * MU0 * EXP(SPLCURVE(J,'U',X))
+        Error: Syntax error in argument list at (1)
+        
+        
+        gremlin.f:1048:72:
+        ATT   =   ATT  +  THICKN(J) * MU0 * EXP(SPLCURVE(J,'L',X))
+        Error: Syntax error in argument list at (1)
+        
+        
+        gremlin.f:1210:72:
+        IF(SQRT(M1*E1).LT.COS(TH3/DEG)*SQRT(M3*E3_1)) TH4_1=180.-TH4_1
+        Error: Syntax error in expression at (1)
+        
+        
+        gremlin.f:1211:72:
+        IF(SQRT(M1*E1).LT.COS(TH3/DEG)*SQRT(M3*E3_2)) TH4_1=180.-TH4_2
+        Error: Syntax error in expression at (1)
+
+For the first two errors. decrease the blank spaces between each of the variables such that there is only one blank space between each of the variables. This should fix this error.
+
+For the Third and fourth error, after the number "180." place a blank space between the "180." and the "-Th4_2". This should be fix that error.
+
+
