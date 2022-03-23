@@ -8,7 +8,7 @@
 
 - [How to install Anaconda, Spyder and Jupyter on Windows or Ubuntu](https://github.com/UWCNuclear/UbuntuSetUp/#how-to-install-anaconda-spyder-and-jupyter-on-windows-or-ubuntu)
 
-- [How to install GRSISort on Ubuntu](https://github.com/UWCNuclear/UbuntuSetUp/#how-to-install-grsisort-on-ubuntua-very-useful-root-based-nuclear-physics-toolkit---)
+- [How to install GRSISort on Ubuntu [A very useful ROOT-based nuclear physics toolkit :-) ]](https://github.com/UWCNuclear/UbuntuSetUp/#how-to-install-grsisort-on-ubuntua-very-useful-root-based-nuclear-physics-toolkit---)
 
 - [How to install GOSIA on Ubuntu](https://github.com/UWCNuclear/UbuntuSetUp/#how-to-install-gosia-on-ubuntu)
 
