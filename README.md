@@ -419,8 +419,8 @@ or:
         IF(SQRT(M1*E1).LT.COS(TH3/DEG)*SQRT(M3*E3_2)) TH4_1=180.-TH4_2
         Error: Syntax error in expression at (1)
 
-For the first two errors. remove the blank spaces between each of the variables such that there is only one blank space between each of the variables. 
-For the third and fourth error, after the number "180." place a blank space between the "180." and the "-Th4_2". 
+For the first two errors, remove the blank spaces between each of the variables such that there is only one blank space between each of the variables. 
+For the third and fourth error, place a blank space between the "180." and the "-Th4_2". 
 
 Or compile the file attached to this repo :-)
 
