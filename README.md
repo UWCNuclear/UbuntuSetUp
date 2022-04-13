@@ -50,13 +50,11 @@ Click "OK"
   
 Restart your computer
 
-**Step 2.**	Install Xming: https://sourceforge.net/projects/xming/
+**Step 2.**	Install and and run Xming: https://sourceforge.net/projects/xming/
 
-Install Xming-fonts: https://sourceforge.net/projects/xming/files/Xming-fonts/
+ ***Note!*** Xming has to be running in the background before you open a terminal and has to be run every time your computer is rebooted. :-)
 
-Run Xming (It has to be running in the background before you open a terminal and has to be run every time your computer is rebooted.)
-
-**Step 3.**	Install Ubuntu 20 through the Microsoft Store (you don't have to sign in unless you are using a VPN): https://www.microsoft.com/en-za/p/ubuntu-2004-lts/9n6svws3rx71?rtc=1
+**Step 3.**	Install Ubuntu 20 through the Microsoft Store or https://www.microsoft.com/en-za/p/ubuntu-2004-lts/9n6svws3rx71?rtc=1 (you don't have to sign in unless you are using a VPN)
 
 **Step 4.**	Set up username and password in the Ubuntu terminal. Do not close the window until you have a username and password set up. (For safety reasons, the password does not show up as you type it.)
 
