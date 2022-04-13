@@ -6,19 +6,19 @@
 
 - [How to install ROOT on Ubuntu](https://github.com/UWCNuclear/UbuntuSetUp/#how-to-install-root-on-ubuntu)
 
-- [How to install Anaconda, Spyder and Jupyter on Windows or Ubuntu](https://github.com/UWCNuclear/UbuntuSetUp/#how-to-install-anaconda-spyder-and-jupyter-on-windows-or-ubuntu)
-
 - [How to install GRSISort on Ubuntu [A useful ROOT-based nuclear physics toolkit :-) ]](https://github.com/UWCNuclear/UbuntuSetUp/#how-to-install-grsisort-on-ubuntua-useful-root-based-nuclear-physics-toolkit---)
-
-- [How to install GOSIA on Ubuntu](https://github.com/UWCNuclear/UbuntuSetUp/#how-to-install-gosia-on-ubuntu)
-
-- [How to install NuShellX on Ubuntu](https://github.com/UWCNuclear/UbuntuSetUp/#how-to-install-nushellx-on-ubuntu)
 
 - [How to install Geant4 on Ubuntu](https://github.com/UWCNuclear/UbuntuSetUp/#how-to-install-geant4-on-ubuntu)
 
-- [How to install RadWare on Ubuntu](https://github.com/UWCNuclear/UbuntuSetUp/#how-to-install-radware-on-ubuntu)
+- [How to install GOSIA on Ubuntu](https://github.com/UWCNuclear/UbuntuSetUp/#how-to-install-gosia-on-ubuntu)
 
 - [How to install GREMLIN on Ubuntu](https://github.com/UWCNuclear/UbuntuSetUp/#how-to-install-gremlin-on-ubuntu)
+
+- [How to install RadWare on Ubuntu](https://github.com/UWCNuclear/UbuntuSetUp/#how-to-install-radware-on-ubuntu)
+
+- [How to install NuShellX on Ubuntu](https://github.com/UWCNuclear/UbuntuSetUp/#how-to-install-nushellx-on-ubuntu)
+
+- [How to install Anaconda, Spyder and Jupyter on Windows or Ubuntu](https://github.com/UWCNuclear/UbuntuSetUp/#how-to-install-anaconda-spyder-and-jupyter-on-windows-or-ubuntu)
 
 # Links to Practical Videos
 
@@ -82,7 +82,7 @@ and
 
     sudo apt install gedit
     
-**Step 8.**	 If not done already, install git using:
+**Step 8.**	 To be able to download repositories directly from GitHub, install git using:
 
     sudo apt-get install git
 
@@ -141,20 +141,6 @@ Watch the videos to find the commands. (To download, paste "git clone https://gi
 ***More support:***	https://root.cern/install/  and Google
 
 
-# How to install Anaconda, Spyder and Jupyter on Windows or Ubuntu
-**Step 1.**	Follow the instructions carefully for Windows: https://docs.anaconda.com/anaconda/install/windows/
-
-On Ubuntu, you can use Python directly by typing "python" or "python3". If you want to use Anaconda on Ubuntu, follow carefully the instructions for Ubuntu/Debian: https://docs.anaconda.com/anaconda/install/linux/
-
-***Medium Test:*** Run the Monte Carlo code "pi.py" included in this repository. To download, click "Code" at the top right, click "Download ZIP". To run, open "pi.py" in Spyder, click the arrow (run) icon, click on "Plots" in the top right window.
-
-***Medium Test:*** Run the muon flux plotting and fitting code "muon_flux_example.ipynb" included in this repository. 
-
-***More support:***	https://docs.anaconda.com/anaconda/user-guide/troubleshooting/  and Google
-
-***Python workshop:***	https://github.com/UWCNuclear/PythonWorkshop :-)
-
-
 # How to install GRSISort on Ubuntu	[A useful ROOT-based nuclear physics toolkit :-) ]
 
 **Step 1.**	 To download the newest version of GRSISort, go to your home directory (cd ~) and paste:
@@ -182,60 +168,6 @@ and paste this line in your terminal:
 ***More support:*** https://github.com/GRIFFINCollaboration/GRSISort/wiki/troubleshooting  and Google
 
 Older versions of GRSISort might need an older ROOT version (for example: ROOT6.22 includes a major PyROOT upgrade).
-
-
-# How to install GOSIA on Ubuntu
-
-**Step 1.**	Install librairies with:
-
-     sudo apt-get install gcc-7 gfortran-7
-
-**Step 2.**	Download the code from https://www.ikp.uni-koeln.de/~warr/gosia/ and move it to your home directory on Ubuntu by editing the correct path in the following command:
-
-    mv /mnt/WHERE-IT-IS-ON-WINDOWS/gosia_20110524.9.f ~
-
-**Step 3.**	Compile with:
-
-     gfortran -o gosia gosia_20110524.9.f
-
-**Step 4.**	Tun with:
-
-     ./gosia < filename.inp
-
-**Step 5.** Use a script to integrate the yields:	https://github.com/UWCNuclear/IntegratedYields
-     
-***Sample files and more support:*** http://www.pas.rochester.edu/~cline/Gosia/
-
-
-# How to install NuShellX on Ubuntu
-
-Ubuntu 20 doesn't seem to support libgfortran3, so the Ubuntu 18 subsystem would be required to run NuShellX. Or it can run directly on Windows :-)
-
-**Step 1.**	Get the files from someone and unzip them in your home directory.
-
-**Step 2.**	Paste the following lines in your ~/.bashrc file (with gedit ~/.bashrc):
-
-    nuxhome=~ 
-    export PATH=$nuxhome/nushellx/linux/nushellx-gfortran-bin:$PATH
-    export nushellx_sps=$nuxhome/nushellx/sps/
-    export mass_data=$nuxhome/nushellx/toi/mass-data/
-    export toi_data=$nuxhome/nushellx/toi/toi-data/
-    alias copy=cp
-    alias del=rm
-    alias q='qstat -u jnorce'
-    alias qall='checknode -v ifi-003'
-    alias sd='cd'
-    alias di='ls -g -l -a'
-    alias dis='ls -tr -l -g -a'
-    alias d='ls -l | egrep ^d'
-    alias ed='vi'
-    alias md='mkdir'
-    
-**Step 3.**	Give permissions to run the executables:
-
-    chmod +rwx ~/nushellx/linux/nushellx-gfortran-bin/*
-
-***More support:*** nushellx/help/help.pdf
 
 
 # How to install Geant4 on Ubuntu
@@ -310,6 +242,75 @@ and then, in the Qt Session box, type:
 ***Alternative:*** There is a virtual box that comes with Geant4 installed (requires at least 30 Gb of disk space): https://heberge.cenbg.in2p3.fr/G4VM/index.html
 
 Intel Virtualization Technology might need to be enabled on Windows. Ask Google how :-)
+
+
+# How to install GOSIA on Ubuntu
+
+**Step 1.**	Install librairies with:
+
+     sudo apt-get install gcc-7 gfortran-7
+
+**Step 2.**	Download the code from https://www.ikp.uni-koeln.de/~warr/gosia/ and move it to your home directory on Ubuntu by editing the correct path in the following command:
+
+    mv /mnt/WHERE-IT-IS-ON-WINDOWS/gosia_20110524.9.f ~
+
+**Step 3.**	Compile with:
+
+     gfortran -o gosia gosia_20110524.9.f
+
+**Step 4.**	Tun with:
+
+     ./gosia < filename.inp
+
+**Step 5.** Use a script to integrate the yields:	https://github.com/UWCNuclear/IntegratedYields
+     
+***Sample files and more support:*** http://www.pas.rochester.edu/~cline/Gosia/
+
+
+# How to install GREMLIN on Ubuntu
+
+**Step 1.** Download the gremlin.f file from the Gosia homepage using the link:         http://www.pas.rochester.edu/~cline/Gosia/
+
+**Step 2.** After downloading the gremlin.f file, run the command:
+
+      gfortran-7 -o gremlin gremlin.f 
+or:
+
+      gfortran -o gremlin gremlin.f 
+
+**Step 3.** Warnings being displayed in the terminal is perfectly fine. If there are errors being produced in the compiling process, this will need to be addressed by a case by case bases. However, below are four errors that have been encounted while compiling GREMLIN on Ubuntu and the solutions to those errors:
+
+        gremlin.f:1046:72:
+        ATT   =   ATT  +  THICKN(J) * MU0 * EXP(SPLCURVE(J,'U',X))
+        Error: Syntax error in argument list at (1)
+        
+        
+        gremlin.f:1048:72:
+        ATT   =   ATT  +  THICKN(J) * MU0 * EXP(SPLCURVE(J,'L',X))
+        Error: Syntax error in argument list at (1)
+        
+        
+        gremlin.f:1210:72:
+        IF(SQRT(M1*E1).LT.COS(TH3/DEG)*SQRT(M3*E3_1)) TH4_1=180.-TH4_1
+        Error: Syntax error in expression at (1)
+        
+        
+        gremlin.f:1211:72:
+        IF(SQRT(M1*E1).LT.COS(TH3/DEG)*SQRT(M3*E3_2)) TH4_1=180.-TH4_2
+        Error: Syntax error in expression at (1)
+
+For the first two errors, remove the blank spaces between each of the variables such that there is only one blank space between each of the variables. 
+For the third and fourth error, place a blank space between the "180." and the "-Th4_2". 
+
+Or compile the file attached to this repo :-)
+
+
+**Step 4.** After compiling has been completed, a file called "gremlin" will have been created. This can be executed using the following command:
+       
+       ./gremlin
+
+A prompt will appear asking for details to be placed into the prompt. If this appears, then GREMLIN is working perfectly.
+
 
 # How to install RadWare on Ubuntu
 
@@ -387,48 +388,48 @@ and paste this line in your terminal:
 
 ***More support:*** https://radware.phy.ornl.gov/download.html
 
-# How to install GREMLIN on Ubuntu
 
-**Step 1.** Download the gremlin.f file from the Gosia homepage using the link:         http://www.pas.rochester.edu/~cline/Gosia/
+# How to install NuShellX on Ubuntu
 
-**Step 2.** After downloading the gremlin.f file, run the command:
+Ubuntu 20 doesn't seem to support libgfortran3, so the Ubuntu 18 subsystem would be required to run NuShellX. Or it can run directly on Windows :-)
 
-      gfortran-7 -o gremlin gremlin.f 
-or:
+**Step 1.**	Get the files from someone and unzip them in your home directory.
 
-      gfortran -o gremlin gremlin.f 
+**Step 2.**	Paste the following lines in your ~/.bashrc file (with gedit ~/.bashrc):
 
-**Step 3.** Warnings being displayed in the terminal is perfectly fine. If there are errors being produced in the compiling process, this will need to be addressed by a case by case bases. However, below are four errors that have been encounted while compiling GREMLIN on Ubuntu and the solutions to those errors:
+    nuxhome=~ 
+    export PATH=$nuxhome/nushellx/linux/nushellx-gfortran-bin:$PATH
+    export nushellx_sps=$nuxhome/nushellx/sps/
+    export mass_data=$nuxhome/nushellx/toi/mass-data/
+    export toi_data=$nuxhome/nushellx/toi/toi-data/
+    alias copy=cp
+    alias del=rm
+    alias q='qstat -u jnorce'
+    alias qall='checknode -v ifi-003'
+    alias sd='cd'
+    alias di='ls -g -l -a'
+    alias dis='ls -tr -l -g -a'
+    alias d='ls -l | egrep ^d'
+    alias ed='vi'
+    alias md='mkdir'
+    
+**Step 3.**	Give permissions to run the executables:
 
-        gremlin.f:1046:72:
-        ATT   =   ATT  +  THICKN(J) * MU0 * EXP(SPLCURVE(J,'U',X))
-        Error: Syntax error in argument list at (1)
-        
-        
-        gremlin.f:1048:72:
-        ATT   =   ATT  +  THICKN(J) * MU0 * EXP(SPLCURVE(J,'L',X))
-        Error: Syntax error in argument list at (1)
-        
-        
-        gremlin.f:1210:72:
-        IF(SQRT(M1*E1).LT.COS(TH3/DEG)*SQRT(M3*E3_1)) TH4_1=180.-TH4_1
-        Error: Syntax error in expression at (1)
-        
-        
-        gremlin.f:1211:72:
-        IF(SQRT(M1*E1).LT.COS(TH3/DEG)*SQRT(M3*E3_2)) TH4_1=180.-TH4_2
-        Error: Syntax error in expression at (1)
+    chmod +rwx ~/nushellx/linux/nushellx-gfortran-bin/*
 
-For the first two errors, remove the blank spaces between each of the variables such that there is only one blank space between each of the variables. 
-For the third and fourth error, place a blank space between the "180." and the "-Th4_2". 
-
-Or compile the file attached to this repo :-)
+***More support:*** nushellx/help/help.pdf
 
 
-**Step 4.** After compiling has been completed, a file called "gremlin" will have been created. This can be executed using the following command:
-       
-       ./gremlin
+# How to install Anaconda, Spyder and Jupyter on Windows or Ubuntu
+**Step 1.**	Follow the instructions carefully for Windows: https://docs.anaconda.com/anaconda/install/windows/
 
-A prompt will appear asking for details to be placed into the prompt. If this appears, then GREMLIN is working perfectly.
+On Ubuntu, you can use Python directly by typing "python" or "python3". If you want to use Anaconda on Ubuntu, follow carefully the instructions for Ubuntu/Debian: https://docs.anaconda.com/anaconda/install/linux/
 
+***Medium Test:*** Run the Monte Carlo code "pi.py" included in this repository. To download, click "Code" at the top right, click "Download ZIP". To run, open "pi.py" in Spyder, click the arrow (run) icon, click on "Plots" in the top right window.
+
+***Medium Test:*** Run the muon flux plotting and fitting code "muon_flux_example.ipynb" included in this repository. 
+
+***More support:***	https://docs.anaconda.com/anaconda/user-guide/troubleshooting/  and Google
+
+***Python workshop:***	https://github.com/UWCNuclear/PythonWorkshop :-)
 
