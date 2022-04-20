@@ -269,7 +269,9 @@ Intel Virtualization Technology might need to be enabled on Windows. Ask Google 
 
 **Step 1.** Download the gremlin.f file from the Gosia homepage using the link:         http://www.pas.rochester.edu/~cline/Gosia/
 
-**Step 2.** After downloading the gremlin.f file, run the command:
+Or compile the file attached to this repo :-)
+
+**Step 2.** Compile the gremlin.f file by running the command:
 
       gfortran-7 -o gremlin gremlin.f 
 or:
@@ -300,14 +302,14 @@ or:
 For the first two errors, remove the blank spaces between each of the variables such that there is only one blank space between each of the variables. 
 For the third and fourth error, place a blank space between the "180." and the "-Th4_2". 
 
-Or compile the file attached to this repo :-)
-
 
 **Step 4.** After compiling has been completed, a file called "gremlin" will have been created. This can be executed using the following command:
        
        ./gremlin
 
 A prompt will appear asking for details to be placed into the prompt. If this appears, then GREMLIN is working perfectly.
+
+Sample input files for Eu152, Co56 and Co60 (to be used with the option "Other") are attached to this repo.
 
 
 # How to install RadWare on Ubuntu
