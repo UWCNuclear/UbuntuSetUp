@@ -88,9 +88,9 @@ and
 
     export DISPLAY=0:0
     
-Then, type "gedit ~/.bashrc", add the line "export DISPLAY=0:0", save and close. Finally, paste in the terminal:
+Then, type "gedit .bashrc", add the line "export DISPLAY=0:0" at the top, save and close. Finally, paste in the terminal:
 
-    source ~/.bashrc
+    source .bashrc
 
 ***More support:***	https://wiki.ubuntu.com/WSL and Google
 
@@ -118,13 +118,13 @@ and
 
     tar -xzvf root_v6.22.08.Linux-ubuntu20-x86_64-gcc9.3.tar.gz
     
-**Step 4.**	Open your .bashrc file using gedit (gedit ~/.bashrc) and add the following line before saving and closing the file:
+**Step 4.**	Open your .bashrc file using gedit (gedit .bashrc) and add the following line before saving and closing the file:
 
     source ~/root/bin/thisroot.sh
 
 **Step 5.**	Paste the following command in the terminal:
 
-    source ~/.bashrc
+    source .bashrc
 
 ***Easy test:*** Type "root" in the terminal and press "Enter", then "2+2" and press "Enter", then ".q" to quit.
 
@@ -141,23 +141,23 @@ Watch the videos to find the commands. (To download, paste "git clone https://gi
 
 # How to install GRSISort on Ubuntu	[A useful ROOT-based nuclear physics toolkit :-) ]
 
-**Step 1.**	 To download the newest version of GRSISort, go to your home directory (cd ~) and paste:
+**Step 1.**	 To download the newest version of GRSISort, go to your home directory (cd) and paste:
 
     git clone https://github.com/GRIFFINCollaboration/GRSISort.git
 
-**Step 2.**	 Paste the following line in your ~/.bashrc file (with gedit ~/.bashrc):
+**Step 2.**	 Paste the following line in your .bashrc file (with gedit .bashrc):
 
     source ~/GRSISort/thisgrsi.sh
     
 and paste this line in your terminal:
 
-    source ~/.bashrc
+    source .bashrc
 
 **Step 3.** To compile GRSISort, go to your GRSISort directory (cd ~/GRSISort) and type:
 
     make
     
-"sudo apt-get install libblas3"	might be needed for newer versions :-)
+*If there is an error*, "sudo apt-get install libblas3"	might be needed for newer versions :-)
 
 ***Test:*** All the tests for ROOT should still work: simply replace "root" by "grsisort"
 
@@ -212,18 +212,18 @@ and move into the build directory:
   
     make install
     
-**Step 8.** Paste the following line in your ~/.bashrc file (with gedit ~/.bashrc):
+**Step 8.** Paste the following line in your .bashrc file (with gedit .bashrc):
 
     source ~/G4/geant4.10.06.p03-install/bin/geant4.shh
     
 and paste this line in your terminal:
 
-    source ~/.bashrc
+    source .bashrc
     
 ***Test:*** Run ExampleB1 with the following instructions:
 
     cd ~/G4
-    cp -r geant4.10.06.p03/examples/basic/B1 ~
+    cp -r geant4.10.06.p03/examples/basic/B1 .
     mkdir B1-build
     cd B1-build
     cmake -DGeant_DIR=~/G4/geant4.10.06.p03-install/lib64/Geant4-G4VERSION ~/B1
@@ -341,7 +341,7 @@ and then
    
     sudo make install
 
-**Step 6.** Paste the following lines in your ~/.bashrc file (with "gedit ~/.bashrc"):
+**Step 6.** Paste the following lines in your .bashrc file (with "gedit .bashrc"):
 
     ## Radware
     #####################################
@@ -380,7 +380,7 @@ and then
 
 and paste this line in your terminal:
 
-    source ~/.bashrc
+    source .bashrc
     
 ***Test:*** Type "gf3" in the terminal.
 
@@ -393,7 +393,7 @@ Ubuntu 20 doesn't seem to support libgfortran3, so the Ubuntu 18 subsystem would
 
 **Step 1.**	Get the files from someone and unzip them in your home directory.
 
-**Step 2.**	Paste the following lines in your ~/.bashrc file (with gedit ~/.bashrc):
+**Step 2.**	Paste the following lines in your .bashrc file (with gedit .bashrc):
 
     nuxhome=~ 
     export PATH=$nuxhome/nushellx/linux/nushellx-gfortran-bin:$PATH
