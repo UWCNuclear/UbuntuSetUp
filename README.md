@@ -112,7 +112,7 @@ and
 
 **Step 2.**	Download the ROOT6 release for the desired platform (https://root.cern/install/all_releases/) by pasting the following command in the terminal:
 
-    wget https://root.cern/download/root_v6.22.08.Linux-ubuntu20-x86_64-gcc9.3.tar.gz
+    wget https://root.cern/download/root_v6.26.06.Linux-ubuntu20-x86_64-gcc9.4.tar.gz
 
 **Step 3.**	Unpack the archive by pasting the following command in the terminal:
 
