@@ -50,7 +50,7 @@ Click "OK"
   
 Restart your computer
 
-**Step 2.**	Install and and run Xming: https://sourceforge.net/projects/xming/
+**Step 2.**	Install and run Xming and Xming-fonts: https://sourceforge.net/projects/xming/
 
  ***Note!*** Xming has to be running in the background before you open a terminal and has to be run every time your computer is rebooted. :-)
 
@@ -319,7 +319,7 @@ Sample input files for Eu152, Co56 and Co60 (to be used with the option "Other")
 
      sudo apt-get install gcc make libreadline-dev libgtk2.0-dev libpawlib-lesstif3-dev
      
-**Step 2.** To download the RadWare package in youy home directory, paste the following lines in your Ubuntu terminal:
+**Step 2.** To download the RadWare package in your home directory, paste the following lines in your Ubuntu terminal:
 
      cd
      git clone https://github.com/radforddc/rw05
