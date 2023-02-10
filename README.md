@@ -50,15 +50,17 @@ Click "OK"
   
 Restart your computer
 
-**Step 2.**	Install and run Xming and Xming-fonts: https://sourceforge.net/projects/xming/
+**Step 2.**	Install and run Xming-fonts: https://sourceforge.net/projects/xming/files/Xming-fonts/7.7.0.10/
+
+**Step 3.**	Install and run Xming: https://sourceforge.net/projects/xming/
 
  ***Note!*** Xming has to be running in the background before you open a terminal and has to be run every time your computer is rebooted. :-)
 
-**Step 3.**	Install Ubuntu 20 through the Microsoft Store or https://www.microsoft.com/en-za/p/ubuntu-2004-lts/9n6svws3rx71?rtc=1 (you don't have to sign in unless you are using a VPN)
+**Step 4.**	Install Ubuntu 20 through the Microsoft Store or https://www.microsoft.com/en-za/p/ubuntu-2004-lts/9n6svws3rx71?rtc=1 (you don't have to sign in unless you are using a VPN)
 
-**Step 4.**	Set up username and password in the Ubuntu terminal. Do not close the window until you have a username and password set up. (For safety reasons, the password does not show up as you type it.)
+**Step 5.**	Set up username and password in the Ubuntu terminal. Do not close the window until you have a username and password set up. (For safety reasons, the password does not show up as you type it.)
 
-**Step 5.**	To update librairies, paste (by using the right click of your mouse pad or middle click of your mouse) the following commands in the terminal:
+**Step 6.**	To update librairies, paste (by using the right click of your mouse pad or middle click of your mouse) the following commands in the terminal:
 
     sudo apt update
     
@@ -68,14 +70,6 @@ and
     
 These commands should be used regularly to keep your system up to date :-)
 
-**Step 6.**	To check if a particular program is in the Ubuntu repository and install the figure editor "grace", paste the following commands in the terminal:
-
-    sudo apt-cache search grace
-      
-and
-  
-    sudo apt install grace
-
 **Step 7.**	Install the text editor "gedit" by pasting in the terminal:
 
     sudo apt install gedit
@@ -83,6 +77,14 @@ and
 **Step 8.**	 To be able to download repositories directly from GitHub, install git using:
 
     sudo apt-get install git
+
+**Step 9.**	To check if a particular program is in the Ubuntu repository and install the figure editor "grace", paste the following commands in the terminal:
+
+    sudo apt-cache search grace
+      
+and
+  
+    sudo apt install grace
 
 ***Test:*** Type "gedit" in the terminal. If it complains about connection or display, paste the following line in the terminal:
 
