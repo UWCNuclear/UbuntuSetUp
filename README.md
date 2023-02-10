@@ -339,6 +339,11 @@ Sample input files for Eu152, Co56 and Co60 (to be used with the option "Other")
     INSTALL = /usr/bin/install -m 0644 -o USERNAME -g users
     INSTALL_BIN = /usr/bin/install -m 0755 -o USERNAME -g users
     
+and comment out -lXp on lines 39 and 40 (by adding # in front of -lXp):
+    
+   MOTIF_LIBS = -lXm -lMrm -lXt -lXext #-lXp
+   STATIC_MOTIF = -lXm -lMrm -lXpm -lXt -lSM -lICE -lXext #-lXp
+    
 **Step 5.** To compile and install, paste:
    
     make all
@@ -381,6 +386,7 @@ and then
     alias gls='~/rw05/src/gls'
     alias gtkesc='~/rw05/src/gtkesc'
     alias gtkgls='~/rw05/src/gtkgls'
+    alias xmesc='~/rw05/src/xmesc'
     alias xmgf3='~/rw05/src/xmgf3'
     alias xmgls='~/rw05/src/xmgls'
     alias slice='~/rw05/src/slice'
