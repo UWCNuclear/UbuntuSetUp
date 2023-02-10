@@ -374,17 +374,17 @@ and then
     export RADWARE_XMG_SIZE=600x500
 
     alias cube='~/rw05/src/xm4dg'
-    alias gf3='~/rw05/src/gf3'
-    alias xmgf3='~/rw05/src/xmgf3'
     alias escl8r='~/rw05/src/escl8r'
+    alias gf3='~/rw05/src/gf3'
     alias gls='~/rw05/src/gls'
+    alias gtkesc='~/rw05/src/gtkesc'
+    alias gtkgls='~/rw05/src/gtkgls'
+    alias xmgf3='~/rw05/src/xmgf3'
     alias xmgls='~/rw05/src/xmgls'
-    alias xmesc='~/rw05/src/xmesc'
     alias Source='~/rw05/src/Source'
     alias effit='~/rw05/src/effit'
     alias encal='~/rw05/src/encal'
     alias slice='~/rw05/src/slice'
-    alias xmgf3='~/rw05/src/xmgf3'
     alias eg2rad='~/rw05/src/eg2rad'
     #####################################
 
