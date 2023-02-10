@@ -341,8 +341,8 @@ Sample input files for Eu152, Co56 and Co60 (to be used with the option "Other")
     
 and comment out -lXp on lines 39 and 40 (by adding # in front of -lXp):
     
-   MOTIF_LIBS = -lXm -lMrm -lXt -lXext #-lXp
-   STATIC_MOTIF = -lXm -lMrm -lXpm -lXt -lSM -lICE -lXext #-lXp
+    MOTIF_LIBS = -lXm -lMrm -lXt -lXext #-lXp
+    STATIC_MOTIF = -lXm -lMrm -lXpm -lXt -lSM -lICE -lXext #-lXp
     
 **Step 5.** To compile and install, paste:
    
