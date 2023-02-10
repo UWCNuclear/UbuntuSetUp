@@ -141,6 +141,8 @@ Watch the videos to find the commands. (To download, paste "git clone https://gi
 
 # How to install GRSISort on Ubuntu	[A useful ROOT-based nuclear physics toolkit :-) ]
 
+The installation of GRSISort requires ROOT (above).
+
 **Step 1.**	 To download the newest version of GRSISort, go to your home directory (cd) and paste:
 
     git clone https://github.com/GRIFFINCollaboration/GRSISort.git
