@@ -375,7 +375,6 @@ and then
 
     alias cube='~/rw05/src/xm4dg'
     alias effit='~/rw05/src/effit'
-    alias eg2rad='~/rw05/src/eg2rad'
     alias encal='~/rw05/src/encal'
     alias escl8r='~/rw05/src/escl8r'
     alias gf3='~/rw05/src/gf3'
