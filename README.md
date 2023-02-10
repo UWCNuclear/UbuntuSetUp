@@ -347,7 +347,11 @@ and then
    
     sudo make install
 
-**Step 6.** Paste the following lines in your .bashrc file (with "gedit .bashrc"):
+**Step 6.** To use the GTK versions of gls, escl8r, etc., then type:
+
+    make gtk
+
+**Step 7.** Paste the following lines in your .bashrc file (with "gedit .bashrc"):
 
     ## Radware
     #####################################
@@ -387,6 +391,7 @@ and then
 and paste this line in your terminal:
 
     source .bashrc
+    
     
 ***Test:*** Type "gf3" in the terminal.
 
