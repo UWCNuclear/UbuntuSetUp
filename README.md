@@ -321,7 +321,7 @@ Sample input files for Eu152, Co56 and Co60 (to be used with the option "Other")
 
 **Step 1.** To install the following libraries, paste:
 
-     sudo apt-get install gcc make libreadline-dev libgtk2.0-dev libpawlib-lesstif3-dev
+     sudo apt-get install gcc make libreadline-dev libgtk2.0-dev libmotif-dev
      
 **Step 2.** To download the RadWare package in your home directory, paste the following lines in your Ubuntu terminal:
 
