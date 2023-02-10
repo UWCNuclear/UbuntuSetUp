@@ -356,7 +356,11 @@ and then
 
     make gtk
 
-**Step 7.** Paste the following lines in your .bashrc file (with "gedit .bashrc"):
+**Step 7.** To use the Motif versions of gls, escl8r, etc., then type:
+
+    make xm
+
+**Step 8.** Paste the following lines in your .bashrc file (with "gedit .bashrc"):
 
     ## Radware
     #####################################
