@@ -58,7 +58,7 @@ Restart your computer
 
 **Step 4.**	Install Ubuntu 20 through the Microsoft Store or https://www.microsoft.com/en-za/p/ubuntu-2004-lts/9n6svws3rx71?rtc=1 (you don't have to sign in unless you are using a VPN)
 
-**Step 5.**	Set up username and password in the Ubuntu terminal. Do not close the window until you have a username and password set up. (For safety reasons, the password does not show up as you type it.)
+**Step 5.**	Set up username and password in the Ubuntu terminal. Do not close the window until you have a username and password set up. (The password does not show up as you type it.)
 
 **Step 6.**	To update librairies, paste (by using the right click of your mouse pad or middle click of your mouse) the following commands in the terminal:
 
@@ -333,7 +333,7 @@ Sample input files for Eu152, Co56 and Co60 (to be used with the option "Other")
     cd ~/rw05/src
     cp Makefile.linux Makefile
 
-**Step 4.** Edit the following lines in your Makefile (with "gedit Makefile") to the rw05 directory and your username:
+**Step 4.** With the command "gedit Makefile", edit the following lines in your Makefile to the rw05 directory and your username:
 
     INSTALL_DIR = ${HOME}/rw05
     INSTALL = /usr/bin/install -m 0644 -o USERNAME -g users
