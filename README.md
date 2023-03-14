@@ -56,7 +56,7 @@ Restart your computer
 
  ***Note!*** Xming has to be running in the background before you open a terminal and has to be run every time your computer is rebooted. :-)
 
-**Step 4.**	Install Ubuntu 20 through the Microsoft Store or https://www.microsoft.com/en-za/p/ubuntu-2004-lts/9n6svws3rx71?rtc=1 (you don't have to sign in unless you are using a VPN)
+**Step 4.**	Install Ubuntu 22 through the Microsoft Store or https://apps.microsoft.com/store/detail/ubuntu-22042-lts/ (you don't have to sign in unless you are using a VPN)
 
 **Step 5.**	Set up username and password in the Ubuntu terminal. Do not close the window until you have a username and password set up. (The password does not show up as you type it.)
 
