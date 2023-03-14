@@ -74,11 +74,7 @@ These commands should be used regularly to keep your system up to date :-)
 
     sudo apt install gedit
     
-**Step 8.**	 To be able to download repositories directly from GitHub, install git using:
-
-    sudo apt-get install git
-
-**Step 9.**	To check if a particular program is in the Ubuntu repository and install the figure editor "grace", paste the following commands in the terminal:
+**Step 8.**	To check if a particular program is in the Ubuntu repository and install the figure editor "grace", paste the following commands in the terminal:
 
     sudo apt-cache search grace
       
@@ -100,6 +96,22 @@ Then, type "gedit .bashrc", add the line "export DISPLAY=0:0" at the top, save a
 # How to install ROOT on Ubuntu	
 **Step 1.**	Install all required and optional packages (https://root.cern/install/dependencies/) by pasting the two following commands in the terminal:
 
+For Ubuntu 22:
+
+    sudo apt-get install dpkg-dev cmake g++ gcc binutils libx11-dev libxpm-dev \
+    libxft-dev libxext-dev python2 libssl-dev
+ 
+and
+ 
+    sudo apt-get install gfortran libpcre3-dev \
+    xlibmesa-glu-dev libglew-dev libftgl-dev \
+    libmysqlclient-dev libfftw3-dev libcfitsio-dev \
+    graphviz-dev libavahi-compat-libdnssd-dev \
+    libldap2-dev python2-dev libxml2-dev libkrb5-dev \
+    libgsl0-dev qtwebengine5-dev
+
+For Ubuntu 20:
+
     sudo apt-get install dpkg-dev cmake g++ gcc binutils libx11-dev libxpm-dev \
     libxft-dev libxext-dev python libssl-dev
  
@@ -111,14 +123,20 @@ and
     graphviz-dev libavahi-compat-libdnssd-dev \
     libldap2-dev python-dev libxml2-dev libkrb5-dev \
     libgsl0-dev
-
+    
 **Step 2.**	Download the ROOT6 release for the desired platform (https://root.cern/install/all_releases/) by pasting the following command in the terminal:
+
+For Ubuntu 22:
+
+    wget https://root.cern/download/root_v6.28.00.Linux-ubuntu22-x86_64-gcc11.3.tar.gz
+
+For Ubuntu 20:
 
     wget https://root.cern/download/root_v6.26.06.Linux-ubuntu20-x86_64-gcc9.4.tar.gz
 
 **Step 3.**	Unpack the archive by pasting the following command in the terminal:
 
-    tar -xzvf root_v6.22.08.Linux-ubuntu20-x86_64-gcc9.3.tar.gz
+    tar -xzvf	root_file_name.tar.gz
     
 **Step 4.**	Open your .bashrc file using gedit (gedit .bashrc) and add the following line before saving and closing the file:
 
@@ -157,11 +175,13 @@ and paste this line in your terminal:
 
     source .bashrc
 
-**Step 3.** To compile GRSISort, go to your GRSISort directory (cd ~/GRSISort) and type:
+**Step 3.** Install libblas3 package:
+
+    sudo apt-get install libblas3
+
+**Step 4.** To compile GRSISort, go to your GRSISort directory (cd ~/GRSISort) and type:
 
     make
-    
-*If there is an error*, "sudo apt-get install libblas3"	might be needed for newer versions :-)
 
 ***Test:*** All the tests for ROOT should still work: simply replace "root" by "grsisort"
 
