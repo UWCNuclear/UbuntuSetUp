@@ -422,7 +422,7 @@ and paste this line in your terminal:
     source .bashrc
     
     
-***Test:*** Type "gf3" in the terminal.
+***Test:*** Type "xmesc" in the terminal.
 
 ***More support:*** https://radware.phy.ornl.gov/download.html
 
