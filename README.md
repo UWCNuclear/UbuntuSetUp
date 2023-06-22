@@ -380,7 +380,7 @@ and then
 
     make xm
 
-**Step 8.** Paste the following lines in your .bashrc file (with "gedit .bashrc"):
+**Step 8.** Paste the following lines in your .bashrc file in your home directory (with "cd && gedit .bashrc"):
 
     ## Radware
     #####################################
