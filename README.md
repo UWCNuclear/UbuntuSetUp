@@ -196,10 +196,13 @@ Older versions of GRSISort might need an older ROOT version (for example: ROOT6.
 
 **Step 1.**	Install Qt by pasting in the terminal:
 
+On Ubuntu 22:
+
+     sudo apt-get install qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools
+     
+On the Ubuntu 20 subsystem for Windows:
+
      sudo apt-get install qt5-default
-     
-On the Ubuntu subsystem for Windows, then do:
-     
      sudo strip --remove-section=.note.ABI-tag /usr/lib/x86_64-linux-gnu/libQt5Core.so.5
  
 **Step 2.**	Install X11 Xmu library and headers by pasting in the terminal:
