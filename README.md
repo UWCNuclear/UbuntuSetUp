@@ -203,6 +203,9 @@ On Ubuntu 22:
 On the Ubuntu 20 subsystem for Windows:
 
      sudo apt-get install qt5-default
+
+and then:
+     
      sudo strip --remove-section=.note.ABI-tag /usr/lib/x86_64-linux-gnu/libQt5Core.so.5
  
 **Step 2.**	Install X11 Xmu library and headers by pasting in the terminal:
