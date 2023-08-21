@@ -256,8 +256,8 @@ and paste this line in your terminal:
     cp -r geant4.10.06.p03/examples/basic/B1 .
     mkdir B1-build
     cd B1-build
-    cmake -DGeant_DIR=~/G4/geant4.10.06.p03-install/lib64/Geant4-G4VERSION ~/B1
-    cmake -DCMAKE_PREFIX_PATH=~/G4/geant4.10.06.p03-install ~/B1
+    cmake -DGeant_DIR=~/G4/geant4.10.06.p03-install/lib64/Geant4-G4VERSION ~/G4/B1
+    cmake -DCMAKE_PREFIX_PATH=~/G4/geant4.10.06.p03-install ~/G4/B1
     make -j
     ./exampleB1
     
