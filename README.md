@@ -2,6 +2,8 @@
 
 - [Links to Practical Videos](https://github.com/UWCNuclear/UbuntuSetUp/#links-to-practical-videos)
 
+- [How to install Windows Subsystem for Linux (Ubuntu) on Windows 11](https://github.com/UWCNuclear/UbuntuSetUp/#how-to-install-windows-subsystem-for-linux-ubuntu-on-windows-11)
+
 - [How to install Windows Subsystem for Linux (Ubuntu) on Windows 10](https://github.com/UWCNuclear/UbuntuSetUp/#how-to-install-windows-subsystem-for-linux-ubuntu-on-windows-10)
 
 - [How to install ROOT on Ubuntu](https://github.com/UWCNuclear/UbuntuSetUp/#how-to-install-root-on-ubuntu)
@@ -29,6 +31,49 @@
 *Practical #3: Detector Efficiency and Peak Fitting*: https://www.youtube.com/watch?v=OG-s4FhOMIk
 
 *Practical #4: Semi-Empirical Mass Formula*: https://www.youtube.com/watch?v=B2W0OYhtddY
+
+# How to install Windows Subsystem for Linux (Ubuntu) on Windows 11
+**Step 1.**	Open the Windows 11 Start Menu and search "Terminal".
+
+**Step 2.**	In the Windows Terminal, list the available Linux distributions by pasting the following command:
+
+    wsl -l -o
+
+**Step 3.**	Install Ubuntu 22 by pasting the following command:
+
+    wsl --install -d Ubuntu-22.04 
+    
+**Step 4.**	When the process is complete, restart your computer.
+
+**Step 5.**	Set up username and password in the Ubuntu terminal. Do not close the window until you have a username and password set up. (The password does not show up as you type it.)
+
+You can run the install command multiple times to install several Linux distributions on your system.
+
+**Step 6.**	To update librairies, paste (by using the right click of your mouse pad or middle click of your mouse) the following commands in the terminal:
+
+    sudo apt update
+    
+and
+    
+    sudo apt upgrade
+    
+These commands should be used regularly to keep your system up to date :-)
+
+**Step 7.**	Install the text editor "gedit" by pasting in the terminal:
+
+    sudo apt install gedit
+    
+**Step 8.**	To check if a particular program is in the Ubuntu repository and install the figure editor "grace", paste the following commands in the terminal:
+
+    sudo apt-cache search grace
+      
+and
+  
+    sudo apt install grace
+
+***Test:*** Type "gedit" in the terminal.
+
+***More support:*** Google
 
 # How to install Windows Subsystem for Linux (Ubuntu) on Windows 10
 
