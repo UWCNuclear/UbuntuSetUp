@@ -83,7 +83,7 @@ and
 
 - *Install Ubuntu from scratch or in dual-boot (you can only use one system at a time) (might be a better option for slower computers)*
 
-- *University computer labs (soon!)*
+- *University computer labs*
 
 #
 
@@ -105,7 +105,7 @@ Restart your computer
 
 **Step 5.**	Set up username and password in the Ubuntu terminal. Do not close the window until you have a username and password set up. (The password does not show up as you type it.)
 
-**Step 6.**	To update librairies, paste (by using the right click of your mouse pad or middle click of your mouse) the following commands in the terminal:
+**Step 6.**	To update libraries, paste (by using the right click of your mouse pad or middle click of your mouse) the following commands in the terminal:
 
     sudo apt update
     
@@ -173,13 +173,13 @@ and
 
 For Ubuntu 22:
 
-    wget https://root.cern/download/root_v6.28.00.Linux-ubuntu22-x86_64-gcc11.3.tar.gz
+    wget https://root.cern/download/root_v6.30.04.Linux-ubuntu22.04-x86_64-gcc11.4.tar.gz
 
 For Ubuntu 20:
 
-    wget https://root.cern/download/root_v6.26.06.Linux-ubuntu20-x86_64-gcc9.4.tar.gz
+    wget https://root.cern/download/root_v6.30.04.Linux-ubuntu20.04-x86_64-gcc9.4.tar.gz
 
-**Step 3.**	Unpack the archive by pasting the following command in the terminal:
+**Step 3.**	Unpack the archive by using the following command with the appropriate file name:
 
     tar -xzvf	root_file_name.tar.gz
     
@@ -319,7 +319,7 @@ Intel Virtualization Technology might need to be enabled on Windows. Ask Google 
 
 # How to install GOSIA on Ubuntu
 
-**Step 1.**	Install librairies with:
+**Step 1.**	Install libraries with:
 
      sudo apt-get install gcc-7 gfortran-7
 
@@ -392,7 +392,7 @@ Sample input files for Eu152, Co56 and Co60 (to be used with the option "Other")
 
 **Step 1.** To install the following libraries, paste:
 
-     sudo apt-get install gcc make libreadline-dev libgtk2.0-dev libmotif-dev
+     sudo apt-get install gcc make libreadline-dev libgtk2.0-dev libmotif-dev xfonts-75dpi-transcoded xfonts-100dpi-transcoded
      
 **Step 2.** To download the RadWare package in your home directory, paste the following lines in your Ubuntu terminal:
 
@@ -418,10 +418,6 @@ and comment out -lXp on lines 39 and 40 (by adding # in front of -lXp):
 **Step 5.** To compile and install, paste:
    
     make all
-    
-and then
-   
-    sudo make install
 
 **Step 6.** To use the GTK versions of gls, escl8r, etc., then type:
 
@@ -439,7 +435,8 @@ and then
     export RADWARE_FONT_LOC=~/rw05/font
     export RADWARE_ICC_LOC=~/rw05/icc
     export RADWARE_GFONLINE_LOC=~/rw05/doc
-    export PATH=$PATH:~/rw05/bin
+    export PATH=$PATH:~/rw05/src
+    #export PATH=$PATH:/root/rw05/bin
 
     #   this variable specifies whether to ring the bell in RadWare cursor routines
     export RADWARE_CURSOR_BELL=n
