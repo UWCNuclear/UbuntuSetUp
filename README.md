@@ -49,7 +49,7 @@
 
 You can run the install command multiple times to install several Linux distributions on your system.
 
-**Step 6.**	To update librairies, paste (by using the right click of your mouse pad or middle click of your mouse) the following commands in the terminal:
+**Step 6.**	To update libraries, paste (by using the right click of your mouse pad or middle click of your mouse) the following commands in the terminal:
 
     sudo apt update
     
@@ -99,7 +99,7 @@ Restart your computer
 
 **Step 3.**	Install and run Xming: https://sourceforge.net/projects/xming/
 
- ***Note!*** Xming has to be running in the background before you open a terminal and has to be run every time your computer is rebooted. :-)
+ ***Note!*** Xming must be running in the background before you open a terminal and has to be run every time your computer is rebooted. :-)
 
 **Step 4.**	Install Ubuntu 22 through the Microsoft Store or https://apps.microsoft.com/store/search/ubuntu (you don't have to sign in unless you are using a VPN)
 
@@ -228,7 +228,7 @@ and paste this line in your terminal:
 
     make
 
-***Test:*** All the tests for ROOT should still work: simply replace "root" by "grsisort"
+***Test:*** All the tests for ROOT should still work: replace "root" by "grsisort"
 
 ***More detailed instructions:*** https://github.com/GRIFFINCollaboration/GRSISort/wiki/Setting-up-GRSISort
 
