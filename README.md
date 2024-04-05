@@ -39,9 +39,10 @@
 
     wsl -l -o
 
-**Step 3.**	Install Ubuntu 22 by pasting the following command:
+**Step 3.**	Install Ubuntu 22 by pasting the following commands:
 
-    wsl --install -d Ubuntu-22.04 
+    wsl --set-default-version 1
+    wsl --install -d Ubuntu-22.04 --enable-wsl1
     
 **Step 4.**	When the process is complete, restart your computer.
 
@@ -73,7 +74,13 @@ and
 
 ***Test:*** Type "gedit" in the terminal.
 
-***More support:*** Google
+***More support:***	https://wiki.ubuntu.com/WSL and Google
+
+***Fun fact:*** You can automatically backup a directory from the Ubuntu subsystem (WSL1) to OneDrive! After you set up OneDrive on your machine, run this command with your own paths in your Windows terminal:
+
+    mklink /j "%UserProfile%\OneDrive\Backups\SaveUbuntu22" "C:\Users\Admin\AppData\Local\Packages\CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc\LocalState\rootfs\home"
+
+To automatically backup to Google Drive, add the path of the Ubuntu directory (WSL1) to the list of folders to backup :-)
 
 # How to install Windows Subsystem for Linux (Ubuntu) on Windows 10
 
