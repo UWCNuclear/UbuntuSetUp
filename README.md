@@ -137,6 +137,11 @@ Then, type "gedit .bashrc", add the line "export DISPLAY=0:0" at the top, save a
 
 ***More support:***	https://wiki.ubuntu.com/WSL and Google
 
+***Fun fact:*** You can automatically backup a directory from the Ubuntu subsystem (WSL1) to OneDrive! After you set up OneDrive on your machine, run this command with your own paths in your Windows terminal:
+
+    mklink /j "%UserProfile%\OneDrive\Backups\SaveUbuntu22" "C:\Users\Admin\AppData\Local\Packages\CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc\LocalState\rootfs\home"
+
+To automatically backup to Google Drive, add the path of the Ubuntu directory (WSL1) to the list of folders to backup :-)
 
 # How to install ROOT on Ubuntu	
 **Step 1.**	Install all required and optional packages (https://root.cern/install/dependencies/) by pasting the two following commands in the terminal:
