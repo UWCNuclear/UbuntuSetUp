@@ -33,25 +33,27 @@
 *Practical #4: Semi-Empirical Mass Formula*: https://www.youtube.com/watch?v=B2W0OYhtddY
 
 # How to install Windows Subsystem for Linux (Ubuntu) on Windows 11
-**Step 1.**	Open the Windows 11 Start Menu and search "Terminal".
+**Step 1.**	Open the Windows 11 Start Menu and search "Terminal". In the Windows Terminal, list the available Linux distributions by pasting the following command:
 
-**Step 2.**	In the Windows Terminal, list the available Linux distributions by pasting the following command:
+    wsl --list --online
 
-    wsl -l -o
-
-**Step 3.**	Install Ubuntu 22 by pasting the following commands:
-
-    wsl --set-default-version 1
-
-and
+**Step 2.**	Install Ubuntu 22 by pasting the following commands:
 
     wsl --install -d Ubuntu-22.04 --enable-wsl1
     
-**Step 4.**	When the process is complete, restart your computer.
+**Step 3.**	When the process is complete, restart your computer.
 
-**Step 5.**	Set up username and password in the Ubuntu terminal. Do not close the window until you have a username and password set up. (The password does not show up as you type it.)
+**Step 4.**	Set up username and password in the Ubuntu terminal. Do not close the window until you have a username and password set up. (The password does not show up as you type it.)
+
+**Step 5.**	Set the version of the subsystem to 1 by pasting the following command:
+
+    wsl --set-version Ubuntu-22.04 1
 
 You can run the install command multiple times to install several Linux distributions on your system.
+
+You can list all the Linux distros installed in your system with the command:
+
+    wsl --list --verbose
 
 **Step 6.**	To update libraries, paste (by using the right click of your mouse pad or middle click of your mouse) the following commands in the terminal:
 
