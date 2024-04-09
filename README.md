@@ -42,6 +42,9 @@
 **Step 3.**	Install Ubuntu 22 by pasting the following commands:
 
     wsl --set-default-version 1
+
+and
+
     wsl --install -d Ubuntu-22.04 --enable-wsl1
     
 **Step 4.**	When the process is complete, restart your computer.
