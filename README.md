@@ -49,7 +49,7 @@
 
     wsl --set-version Ubuntu-22.04 1
 
-You can run the install command multiple times to install several Linux distributions on your system.
+You can run the install command multiple times to install several Linux distributions on your system, but first use "wsl --set-default-version 1".
 
 You can list all the Linux distros installed in your system with the command:
 
