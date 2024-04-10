@@ -33,27 +33,23 @@
 *Practical #4: Semi-Empirical Mass Formula*: https://www.youtube.com/watch?v=B2W0OYhtddY
 
 # How to install Windows Subsystem for Linux (Ubuntu) on Windows 11
-**Step 1.**	Open the Windows 11 Start Menu and search "Terminal". In the Windows Terminal, list the available Linux distributions by pasting the following command:
-
-    wsl --list --online
-
-**Step 2.**	Install Ubuntu 22 by pasting the following commands:
+**Step 1.**	Open the Windows 11 Start Menu and search "Terminal". Install Ubuntu 22 by pasting the following commands:
 
     wsl --install -d Ubuntu-22.04 --enable-wsl1
-    
-**Step 3.**	When the process is complete, restart your computer.
 
-**Step 4.**	Set up username and password in the Ubuntu terminal. Do not close the window until you have a username and password set up. (The password does not show up as you type it.)
+When the process is complete, restart your computer.
 
-**Step 5.**	Set the version of the subsystem to 1 by pasting the following command:
+**Step 2.**	Set up username and password in the Ubuntu terminal. Do not close the window until you have a username and password set up. (The password does not show up as you type it.)
+
+**Step 3.**	Set the version of the subsystem to 1 by pasting the following command:
 
     wsl --set-version Ubuntu-22.04 1
 
-You can run the install command multiple times to install several Linux distributions on your system, but first use "wsl --set-default-version 1".
+**Step 4.**	Install and run Xming-fonts: https://sourceforge.net/projects/xming/files/Xming-fonts/7.7.0.10/
 
-You can list all the Linux distros installed in your system with the command:
+**Step 5.**	Install and run Xming: https://sourceforge.net/projects/xming/
 
-    wsl --list --verbose
+ ***Note!*** Xming must be running in the background before you open a terminal and has to be run every time your computer is rebooted. :-)
 
 **Step 6.**	To update libraries, paste (by using the right click of your mouse pad or middle click of your mouse) the following commands in the terminal:
 
@@ -77,11 +73,27 @@ and
   
     sudo apt install grace
 
-***Test:*** Type "gedit" in the terminal.
+***Test:*** Type "gedit" in the terminal. If it complains about connection or display, paste the following line in the terminal:
+
+    export DISPLAY=0:0
+    
+Then, type "gedit .bashrc", add the line "export DISPLAY=0:0" at the top, save and close. Finally, paste in the terminal:
+
+    source .bashrc
 
 ***More support:***	https://wiki.ubuntu.com/WSL and Google
 
-***Fun fact:*** You can automatically backup a directory from the Ubuntu subsystem (WSL1) to OneDrive! After you set up OneDrive on your machine, run this command with your own paths in your Windows terminal:
+***Fun fact #2:*** You can run the install command multiple times to install several Linux distributions on your system, but first use "wsl --set-default-version 1".
+
+You can list the available Linux distributions by pasting the following command in the Windows Terminal:
+
+    wsl --list --online
+
+You can list all the Linux distros installed in your system with the command:
+
+    wsl --list --verbose
+    
+***Fun fact #1:*** You can automatically backup a directory from the Ubuntu subsystem (WSL1) to OneDrive! After you set up OneDrive on your machine, run this command with your own paths in your Windows terminal:
 
     mklink /j "%UserProfile%\OneDrive\Backups\SaveUbuntu22" "C:\Users\Admin\AppData\Local\Packages\CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc\LocalState\rootfs\home"
 
