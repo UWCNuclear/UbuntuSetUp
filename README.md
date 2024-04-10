@@ -33,7 +33,7 @@
 *Practical #4: Semi-Empirical Mass Formula*: https://www.youtube.com/watch?v=B2W0OYhtddY
 
 # How to install Windows Subsystem for Linux (Ubuntu) on Windows 11
-**Step 1.**	Open the Windows 11 Start Menu and search "Terminal". Install Ubuntu 22 by pasting the following commands:
+**Step 1.**	Open the Windows 11 Start Menu and search "Terminal". Install Ubuntu 22 by pasting the following command:
 
     wsl --install -d Ubuntu-22.04 --enable-wsl1
 
