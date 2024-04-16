@@ -310,7 +310,7 @@ and move into the build directory:
     
 **Step 7.** To run the build, paste:
 
-    make -j
+    make -j 4
     
  and then
   
