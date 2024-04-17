@@ -318,7 +318,7 @@ and move into the build directory:
     
 **Step 8.** Paste the following line in your .bashrc file (with gedit .bashrc):
 
-    source ~/G4/geant4.10.06.p03-install/bin/geant4.shh
+    source ~/G4/geant4.10.06.p03-install/bin/geant4.sh
     
 and paste this line in your terminal:
 
